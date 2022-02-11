@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -30,22 +32,112 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add directory="D:/Git/x86_64-w64-mingw32/include" />
+			<Add directory="../x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="../glew-2.1.0/include/GL" />
 		</Compiler>
 		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+			<Add option="-lmingw32 -lSDL2main -lSDL2  -Wl,--dynamicbase -Wl,--nxcompat -Wl,--high-entropy-va -lm -ldinput8 -ldxguid -ldxerr8 -luser32 -lgdi32 -lwinmm -limm32 -lole32 -loleaut32 -lshell32 -lsetupapi -lversion -luuid" />
 			<Add library="mingw32" />
-			<Add library="SDL2main" />
-			<Add library="SDL2.dll" />
 			<Add library="user32" />
 			<Add library="gdi32" />
 			<Add library="winmm" />
 			<Add library="dxguid" />
-			<Add directory="D:/Git/x86_64-w64-mingw32/lib" />
+			<Add library="SDL2main" />
+			<Add library="glew32s" />
+			<Add library="OpenGL32" />
+			<Add directory="../x86_64-w64-mingw32/lib" />
+			<Add directory="../glew-2.1.0/lib/Release/x64" />
+			<Add directory="../glew-2.1.0/lib/Release/Win32" />
 		</Linker>
-		<ExtraCommands>
-			<Add after="XCOPY $(#sdl2)\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
-		</ExtraCommands>
+		<Unit filename="../glew-2.1.0/include/GL/eglew.h" />
+		<Unit filename="../glew-2.1.0/include/GL/glew.h" />
+		<Unit filename="../glew-2.1.0/include/GL/glxew.h" />
+		<Unit filename="../glew-2.1.0/include/GL/wglew.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_assert.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_atomic.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_audio.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_bits.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_blendmode.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_clipboard.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_config.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_cpuinfo.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_egl.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_endian.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_error.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_events.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_filesystem.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_gamecontroller.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_gesture.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_haptic.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_hidapi.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_hints.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_joystick.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_keyboard.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_keycode.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_loadso.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_locale.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_log.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_main.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_messagebox.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_metal.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_misc.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_mouse.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_mutex.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_name.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_opengl.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_opengl_glext.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_opengles.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_opengles2.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_opengles2_gl2.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_opengles2_gl2ext.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_opengles2_gl2platform.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_opengles2_khrplatform.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_pixels.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_platform.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_power.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_quit.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_rect.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_render.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_revision.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_rwops.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_scancode.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_sensor.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_shape.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_surface.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_system.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_syswm.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_assert.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_common.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_compare.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_crc32.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_font.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_fuzzer.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_harness.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_images.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_log.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_md5.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_memory.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_test_random.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_thread.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_timer.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_touch.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_types.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_version.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_video.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/SDL_vulkan.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/begin_code.h" />
+		<Unit filename="../x86_64-w64-mingw32/include/SDL2/close_code.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Gameobject.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Gameobject.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
