@@ -19,10 +19,6 @@ Game::Game(int pWidth,int pHeight,bool fullscreen)
     windowHeight = pHeight;
     windowWidth = pWidth;
     Game::SetupOpenGlWindow();
-    Game::RunTillClose();
-    SDL_GL_DeleteContext(ctx);
-    SDL_DestroyWindow(window);
-    SDL_Quit();
 }
 
 Game::~Game()
@@ -88,6 +84,95 @@ void Game::SetupOpenGlWindow()
     glClearColor(0.0f,1.0f,1.0f,0.0f);
 
                 glClear(GL_COLOR_BUFFER_BIT);
+}
+
+
+
+uint32_t timebase=0;
+uint32_t fpstimebase=0;
+int TimePerFrameMs = 0;
+int timeSinceLastUpdate=0;
+int frameCount = 0;
+uint32_t timeSinceFpsUpdate = 0;
+void Game::Run()
+{
+    //setup timer stuff
+   // timeAtStartOfFrame = SDL_GetTicks();
+    TimePerFrameMs = 1000 / TargetFps;
+    bool running = true;
+    while (running)
+    {
+        uint32_t timeSinceLastFrame = (SDL_GetTicks() - timebase);
+        if (timeSinceLastFrame != 0)
+        {
+            timebase = SDL_GetTicks();
+        }
+        timeSinceLastUpdate += timeSinceLastFrame;
+        //check if it's time to update. Or if the framerate is unlocked always update;
+        if (UnlockedFps || (timeSinceLastUpdate >= TimePerFrameMs))
+        {
+            //update world(DeltaTime)
+
+
+           if (UnlockedFps)
+           {
+               timeSinceLastUpdate = 0;
+           }
+           else
+           {
+                timeSinceLastUpdate -= TimePerFrameMs;
+           }
+
+
+            SDL_Event event;
+        while (SDL_PollEvent(&event))
+        {
+          if (event.type == SDL_KEYDOWN)
+          {
+            switch (event.key.keysym.sym)
+            {
+              case SDLK_ESCAPE:
+                running = 0;
+                break;
+              default:
+                break;
+            }
+          }
+          else if (event.type == SDL_QUIT)
+          {
+            running = 0;
+          }
+        }
+        if (running == false)
+        {
+            break;
+        }
+
+            //Render everything
+
+            uint32_t timeSpanFps = (SDL_GetTicks() - fpstimebase);
+            if (timeSpanFps !=0)
+            {
+            timeSinceFpsUpdate += timeSpanFps;
+            fpstimebase = SDL_GetTicks();
+            }
+
+            frameCount++;
+            if (timeSinceFpsUpdate >= 1000)
+            {
+                fps = (timeSinceFpsUpdate/1000) * frameCount;
+                std::cout << "Count: " << frameCount << "TimeSinceFps: " << timeSinceFpsUpdate << std::endl;
+                std::cout << "FPS: " << fps << std::endl;
+                timeSinceFpsUpdate -= 1000;
+                frameCount = 0;
+            }
+        }
+    }
+
+    //Game::RunTillClose();
+    SDL_GL_DeleteContext(ctx);
+    SDL_DestroyWindow(window);
+    SDL_Quit();
 }
 
 

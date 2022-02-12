@@ -9,7 +9,8 @@
 
 int main( int argc, char * argv[] )
 {
-    Game:Game(300,300,false);
+    Game game(300,300,false);
+    game.Run();
     return 0;
 }
 
