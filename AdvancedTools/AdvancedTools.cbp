@@ -560,12 +560,16 @@
 		<Unit filename="include/Colider.h" />
 		<Unit filename="include/Game.h" />
 		<Unit filename="include/Gameobject.h" />
+		<Unit filename="include/OpenGlRenderer.h" />
+		<Unit filename="include/Renderer.h" />
 		<Unit filename="include/World.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/BoxColider.cpp" />
 		<Unit filename="src/Colider.cpp" />
 		<Unit filename="src/Game.cpp" />
 		<Unit filename="src/Gameobject.cpp" />
+		<Unit filename="src/OpenGlRenderer.cpp" />
+		<Unit filename="src/Renderer.cpp" />
 		<Unit filename="src/World.cpp" />
 		<Extensions />
 	</Project>

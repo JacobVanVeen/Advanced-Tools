@@ -10,6 +10,7 @@ class Game
         void Run();
         bool UnlockedFps = false;
         int TargetFps = 60;
+        void RenderWorld();
     protected:
 
     private:

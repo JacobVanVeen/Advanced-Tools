@@ -176,6 +176,12 @@ void Game::Run()
 }
 
 
+void Game::RenderWorld()
+{
+
+}
+
+
 void Game::RunTillClose()
 {
       bool running = 1;
