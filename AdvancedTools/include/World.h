@@ -3,12 +3,15 @@
 #include "Gameobject.h"
 
 
+
 class World
 {
     public:
         World();
         virtual ~World();
         void AddToWorld(Gameobject* pObject);
+        Gameobject* GetRoot();
+        void Update(int pDeltaTime);
     protected:
 
     private:

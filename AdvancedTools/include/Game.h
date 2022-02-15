@@ -1,6 +1,7 @@
 #ifndef GAME_H
 #define GAME_H
 #include <SDL.h>
+#include "Renderer.h"
 
 class Game
 {
@@ -17,6 +18,8 @@ class Game
         void SetupOpenGlWindow();
         void RunTillClose(); // for debuging stuff
         int fps =0;
+        Renderer* renderer;
+        World* world;
 
 };
 

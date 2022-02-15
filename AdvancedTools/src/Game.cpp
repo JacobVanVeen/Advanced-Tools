@@ -1,9 +1,10 @@
 #define GLEW_STATIC
 #include "Game.h"
 #include <SDL.h>
-//#include <glew.h>
+#include <glew.h>
 #include <SDL_opengl.h>
 #include <iostream>
+#include "MovingShape.h"
 
 
 
@@ -18,6 +19,7 @@ Game::Game(int pWidth,int pHeight,bool fullscreen)
     title = "Advanced Tools";
     windowHeight = pHeight;
     windowWidth = pWidth;
+
     Game::SetupOpenGlWindow();
 }
 
@@ -47,43 +49,134 @@ void Game::SetupOpenGlWindow()
         return;
     }
 
+        ctx = SDL_GL_CreateContext(window);
 
-        //set the bits per pixel. Lets do 5 for now.
-    SDL_GL_SetAttribute( SDL_GL_RED_SIZE, 5 );
-    SDL_GL_SetAttribute( SDL_GL_GREEN_SIZE, 5 );
-    SDL_GL_SetAttribute( SDL_GL_BLUE_SIZE, 5 );
-    //set the depth buffer size.
-    SDL_GL_SetAttribute( SDL_GL_DEPTH_SIZE, 16 );
-   //SDL_GL_SetSwapInterval(1);
-        SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 1);
-    SDL_GL_SetAttribute(
-        SDL_GL_CONTEXT_PROFILE_MASK,
-        SDL_GL_CONTEXT_PROFILE_CORE);
-
-
-
-
-    ctx = SDL_GL_CreateContext(window);
     if (ctx == NULL)
     {
         std::cout << "Error getting opengl context" << std::endl;
+        return;
     }
 
     SDL_GL_MakeCurrent( window, ctx );
-  /*  GLenum err = glewInit();
-    if (err != GLEW_OK)
+
+
+    glewExperimental = GL_TRUE;
+    GLenum err = glewInit();
+    if(err != GLEW_OK)
     {
-        std::cout << "argh!" << std::endl;
+        std::cout << "Error initializing Glew, error: " << err << std::endl;
         return;
-    }*/
+    }
+    renderer = new Renderer();
+    world = new World();
 
-    glClearColor(1.0f,0.0f,1.0f,0.0f);
+
+
+    Gameobject* tryout = new Gameobject("Tryout");
+    tryout->Verts.push_back(glm::vec3(0.0f,  0.5f,  0.0f));
+    tryout->Verts.push_back(glm::vec3(0.5f, -0.5f,  0.0f));
+    tryout->Verts.push_back(glm::vec3(-0.5f, -0.5f,  0.0f));
+    world->AddToWorld(tryout);
+
+
+        Gameobject* tryout2 = new Gameobject("Tryout2");
+    tryout2->Verts.push_back(glm::vec3(1.0f,  1.0f,  0.0f));
+    tryout2->Verts.push_back(glm::vec3(0.7f, 0.7f,  0.0f));
+    tryout2->Verts.push_back(glm::vec3(1.0f, 0.0f,  0.0f));
+    tryout->AddChild(tryout2);
+
+
+            Gameobject* tryout3 = new MovingShape();
+    tryout3->Verts.push_back(glm::vec3(-1.0f,  -1.0f,  0.0f));
+    tryout3->Verts.push_back(glm::vec3(-0.7f, -0.7f,  0.0f));
+    tryout3->Verts.push_back(glm::vec3(-1.0f, 0.0f,  0.0f));
+    tryout->AddChild(tryout3);
+
+    return;
+
+
+
+
+
+    // expirimental stuff over here.
+    // change background color
+   // glClearColor(1.0f,0.0f,1.0f,0.0f);
     glClear(GL_COLOR_BUFFER_BIT);
-    SDL_GL_SwapWindow(window);
-    glClearColor(0.0f,1.0f,1.0f,0.0f);
 
-                glClear(GL_COLOR_BUFFER_BIT);
+    float trianglePoints[] = {
+   0.0f,  0.5f,  0.0f,
+   0.5f, -0.5f,  0.0f,
+  -0.5f, -0.5f,  0.0f
+    };
+
+
+    float triangleColors[] = {
+   1.0f,  0.0f,  0.0f, 1.0f,
+   0.0f,  1.0f,  0.0f, 1.0f,
+   0.0f,  0.0f,  1.0f, 1.0f,
+    };
+
+
+    GLuint vao = 0;
+    glGenVertexArrays(1, &vao);
+    glBindVertexArray(vao);
+
+    GLuint vertexBuff =0;
+    glGenBuffers(1,&vertexBuff);
+    glBindBuffer(GL_ARRAY_BUFFER,vertexBuff);
+    glBufferData(GL_ARRAY_BUFFER, 9 * sizeof(float), trianglePoints, GL_STATIC_DRAW);
+
+    GLuint cbo = 0;
+    glGenBuffers(1, &cbo);
+    glBindBuffer(GL_ARRAY_BUFFER, cbo);
+    glBufferData(GL_ARRAY_BUFFER, 12 * sizeof(float), triangleColors, GL_STATIC_DRAW);
+
+
+    glBindBuffer(GL_ARRAY_BUFFER, vao);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, NULL);
+    glEnableVertexAttribArray(0);
+
+    glBindBuffer(GL_ARRAY_BUFFER, cbo);
+    glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, 0, NULL);
+    glEnableVertexAttribArray(1);
+
+    const char* vertex_shader =
+    "#version 400\n"
+    "in vec3 vp;"
+    "in vec4 vcolor;"
+    "out vec4 colorv;"
+    "void main() {"
+    "  colorv = vcolor;"
+    "  gl_Position = vec4(vp, 1.0);"
+    "}";
+
+    const char* fragment_shader =
+    "#version 400\n"
+    "out vec4 frag_colour;"
+    "in vec4 colorv;"
+    "void main() {"
+    //"  frag_colour = vec4(1, 0.0, 0, 1.0);"
+    "  frag_colour = colorv;"
+    "}";
+
+    GLuint vs = glCreateShader(GL_VERTEX_SHADER);
+    glShaderSource(vs, 1, &vertex_shader, NULL);
+    glCompileShader(vs);
+    GLuint fs = glCreateShader(GL_FRAGMENT_SHADER);
+    glShaderSource(fs, 1, &fragment_shader, NULL);
+    glCompileShader(fs);
+
+    GLuint shader_programme = glCreateProgram();
+    glAttachShader(shader_programme, fs);
+    glAttachShader(shader_programme, vs);
+    glLinkProgram(shader_programme);
+
+    glUseProgram(shader_programme);
+    glBindVertexArray(vao);
+    // draw points 0-3 from the currently bound VAO with current in-use shader
+    glDrawArrays(GL_TRIANGLES, 0, 3);
+
+    SDL_GL_SwapWindow(window); // call this at the end of every render.
 }
 
 
@@ -112,7 +205,7 @@ void Game::Run()
         if (UnlockedFps || (timeSinceLastUpdate >= TimePerFrameMs))
         {
             //update world(DeltaTime)
-
+            world->Update(timeSinceLastFrame);
 
            if (UnlockedFps)
            {
@@ -148,7 +241,9 @@ void Game::Run()
             break;
         }
 
-            //Render everything
+
+            RenderWorld();
+
 
             uint32_t timeSpanFps = (SDL_GetTicks() - fpstimebase);
             if (timeSpanFps !=0)
@@ -178,7 +273,8 @@ void Game::Run()
 
 void Game::RenderWorld()
 {
-
+    renderer->Render(world);
+    SDL_GL_SwapWindow(window); // call this at the end of every render.
 }
 
 

@@ -390,13 +390,16 @@
 	<SDL.h>
 	"Game.h"
 
-1644632172 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
+1644919817 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
 	"Gameobject.h"
 	<glm/glm.hpp>
 	<algorithm>
 
-1644631937 d:\git\advanced-tools\advancedtools\include\gameobject.h
+1644919832 d:\git\advanced-tools\advancedtools\include\gameobject.h
 	<vector>
+	<glm/glm.hpp>
+	<glew.h>
+	<string>
 
 1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl.h
 	"SDL_main.h"
@@ -776,14 +779,17 @@
 	"begin_code.h"
 	"close_code.h"
 
-1644641745 d:\git\advanced-tools\advancedtools\include\game.h
+1644914302 d:\git\advanced-tools\advancedtools\include\game.h
 	<SDL.h>
+	"Renderer.h"
 
-1644641645 source:d:\git\advanced-tools\advancedtools\src\game.cpp
+1644920396 source:d:\git\advanced-tools\advancedtools\src\game.cpp
 	"Game.h"
 	<SDL.h>
+	<glew.h>
 	<SDL_opengl.h>
 	<iostream>
+	"MovingShape.h"
 
 1501497981 d:\git\advanced-tools\glew-2.1.0\include\gl\glew.h
 	<stddef.h>
@@ -1711,12 +1717,12 @@
 	"../ext/vector_uint1.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1644632235 source:d:\git\advanced-tools\advancedtools\src\world.cpp
+1644917759 source:d:\git\advanced-tools\advancedtools\src\world.cpp
 	"World.h"
 	"Gameobject.h"
 	"Gameobject.h"
 
-1644632220 d:\git\advanced-tools\advancedtools\include\world.h
+1644916971 d:\git\advanced-tools\advancedtools\include\world.h
 	"Gameobject.h"
 
 1644631043 source:d:\git\advanced-tools\advancedtools\src\boxcolider.cpp
@@ -1724,12 +1730,14 @@
 
 1644631042 d:\git\advanced-tools\advancedtools\include\boxcolider.h
 
-1644631221 source:d:\git\advanced-tools\advancedtools\src\colider.cpp
+1644641855 source:d:\git\advanced-tools\advancedtools\src\colider.cpp
 	"Colider.h"
+	"Gameobject.h"
 
-1644631221 d:\git\advanced-tools\advancedtools\include\colider.h
+1644641880 d:\git\advanced-tools\advancedtools\include\colider.h
 	<glm/glm.hpp>
 	"BoxColider.h"
+	"Gameobject.h"
 
 1644642186 source:c:\users\jacob\advanced-tools\glm\glm\detail\glm.cpp
 	<glm/gtx/dual_quaternion.hpp>
@@ -3084,4 +3092,40 @@
 1644688953 c:\users\jacob\advanced-tools\advancedtools\include\openglrenderer.h
 	"Renderer.h"
 	"world.h"
+
+1644884321 source:d:\git\advanced-tools\advancedtools\src\openglrenderer.cpp
+	"OpenGlRenderer.h"
+
+1644884321 d:\git\advanced-tools\advancedtools\include\openglrenderer.h
+	"Renderer.h"
+	"world.h"
+
+1644913842 d:\git\advanced-tools\advancedtools\include\renderer.h
+	"World.h"
+	<SDL.h>
+	<glew.h>
+
+1644919871 source:d:\git\advanced-tools\advancedtools\src\renderer.cpp
+	"Renderer.h"
+	<SDL.h>
+	<glew.h>
+	<SDL_opengl.h>
+	<iostream>
+
+1644910977 source:d:\git\advanced-tools\advancedtools\src\camera.cpp
+	"Camera.h"
+	"Gameobject.h"
+	<string>
+
+1644911070 d:\git\advanced-tools\advancedtools\include\camera.h
+	<glm/glm.hpp>
+	"Gameobject.h"
+
+1644920299 source:d:\git\advanced-tools\advancedtools\src\movingshape.cpp
+	"MovingShape.h"
+	"Gameobject.h"
+	<iostream>
+
+1644918195 d:\git\advanced-tools\advancedtools\include\movingshape.h
+	"Gameobject.h"
 

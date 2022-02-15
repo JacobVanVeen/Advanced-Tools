@@ -16,3 +16,14 @@ void World::AddToWorld(Gameobject* pObject)
 {
     root.AddChild(pObject);
 }
+
+void World::Update(int deltaTime)
+{
+    root.Update(deltaTime);
+}
+
+
+Gameobject* World::GetRoot()
+{
+    return &root;
+}
