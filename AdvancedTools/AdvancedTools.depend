@@ -390,14 +390,18 @@
 	<SDL.h>
 	"Game.h"
 
-1644919817 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
+1645227223 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
+	<iostream>
 	"Gameobject.h"
 	<glm/glm.hpp>
 	<algorithm>
+	"glm/ext.hpp"
+	"glm/gtx/string_cast.hpp"
 
-1644919832 d:\git\advanced-tools\advancedtools\include\gameobject.h
+1645223605 d:\git\advanced-tools\advancedtools\include\gameobject.h
 	<vector>
 	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
 	<glew.h>
 	<string>
 
@@ -779,17 +783,20 @@
 	"begin_code.h"
 	"close_code.h"
 
-1644914302 d:\git\advanced-tools\advancedtools\include\game.h
+1645222358 d:\git\advanced-tools\advancedtools\include\game.h
 	<SDL.h>
 	"Renderer.h"
+	"Camera.h"
 
-1644920396 source:d:\git\advanced-tools\advancedtools\src\game.cpp
+1645227727 source:d:\git\advanced-tools\advancedtools\src\game.cpp
 	"Game.h"
 	<SDL.h>
 	<glew.h>
 	<SDL_opengl.h>
 	<iostream>
 	"MovingShape.h"
+	"cube.h"
+	"Camera.h"
 
 1501497981 d:\git\advanced-tools\glew-2.1.0\include\gl\glew.h
 	<stddef.h>
@@ -3100,32 +3107,1049 @@
 	"Renderer.h"
 	"world.h"
 
-1644913842 d:\git\advanced-tools\advancedtools\include\renderer.h
+1645222336 d:\git\advanced-tools\advancedtools\include\renderer.h
 	"World.h"
 	<SDL.h>
 	<glew.h>
 
-1644919871 source:d:\git\advanced-tools\advancedtools\src\renderer.cpp
+1645227356 source:d:\git\advanced-tools\advancedtools\src\renderer.cpp
 	"Renderer.h"
 	<SDL.h>
-	<glew.h>
 	<SDL_opengl.h>
 	<iostream>
+	"Camera.h"
+	"glm/ext.hpp"
 
-1644910977 source:d:\git\advanced-tools\advancedtools\src\camera.cpp
+1645227602 source:d:\git\advanced-tools\advancedtools\src\camera.cpp
 	"Camera.h"
 	"Gameobject.h"
 	<string>
+	<iostream>
 
-1644911070 d:\git\advanced-tools\advancedtools\include\camera.h
+1645223253 d:\git\advanced-tools\advancedtools\include\camera.h
 	<glm/glm.hpp>
 	"Gameobject.h"
 
-1644920299 source:d:\git\advanced-tools\advancedtools\src\movingshape.cpp
+1644920848 source:d:\git\advanced-tools\advancedtools\src\movingshape.cpp
 	"MovingShape.h"
 	"Gameobject.h"
 	<iostream>
+	<math.h>
 
 1644918195 d:\git\advanced-tools\advancedtools\include\movingshape.h
 	"Gameobject.h"
+
+1645217441 d:\git\advanced-tools\advancedtools\include\cube.h
+	<string>
+	"Gameobject.h"
+
+1645218366 source:d:\git\advanced-tools\advancedtools\src\cube.cpp
+	"Cube.h"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext.hpp
+	"detail/setup.hpp"
+	"glm.hpp"
+	"./ext/matrix_clip_space.hpp"
+	"./ext/matrix_common.hpp"
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+	"./ext/matrix_int2x2.hpp"
+	"./ext/matrix_int2x2_sized.hpp"
+	"./ext/matrix_int2x3.hpp"
+	"./ext/matrix_int2x3_sized.hpp"
+	"./ext/matrix_int2x4.hpp"
+	"./ext/matrix_int2x4_sized.hpp"
+	"./ext/matrix_int3x2.hpp"
+	"./ext/matrix_int3x2_sized.hpp"
+	"./ext/matrix_int3x3.hpp"
+	"./ext/matrix_int3x3_sized.hpp"
+	"./ext/matrix_int3x4.hpp"
+	"./ext/matrix_int3x4_sized.hpp"
+	"./ext/matrix_int4x2.hpp"
+	"./ext/matrix_int4x2_sized.hpp"
+	"./ext/matrix_int4x3.hpp"
+	"./ext/matrix_int4x3_sized.hpp"
+	"./ext/matrix_int4x4.hpp"
+	"./ext/matrix_int4x4_sized.hpp"
+	"./ext/matrix_uint2x2.hpp"
+	"./ext/matrix_uint2x2_sized.hpp"
+	"./ext/matrix_uint2x3.hpp"
+	"./ext/matrix_uint2x3_sized.hpp"
+	"./ext/matrix_uint2x4.hpp"
+	"./ext/matrix_uint2x4_sized.hpp"
+	"./ext/matrix_uint3x2.hpp"
+	"./ext/matrix_uint3x2_sized.hpp"
+	"./ext/matrix_uint3x3.hpp"
+	"./ext/matrix_uint3x3_sized.hpp"
+	"./ext/matrix_uint3x4.hpp"
+	"./ext/matrix_uint3x4_sized.hpp"
+	"./ext/matrix_uint4x2.hpp"
+	"./ext/matrix_uint4x2_sized.hpp"
+	"./ext/matrix_uint4x3.hpp"
+	"./ext/matrix_uint4x3_sized.hpp"
+	"./ext/matrix_uint4x4.hpp"
+	"./ext/matrix_uint4x4_sized.hpp"
+	"./ext/matrix_projection.hpp"
+	"./ext/matrix_relational.hpp"
+	"./ext/matrix_transform.hpp"
+	"./ext/quaternion_common.hpp"
+	"./ext/quaternion_double.hpp"
+	"./ext/quaternion_double_precision.hpp"
+	"./ext/quaternion_float.hpp"
+	"./ext/quaternion_float_precision.hpp"
+	"./ext/quaternion_exponential.hpp"
+	"./ext/quaternion_geometric.hpp"
+	"./ext/quaternion_relational.hpp"
+	"./ext/quaternion_transform.hpp"
+	"./ext/quaternion_trigonometric.hpp"
+	"./ext/scalar_common.hpp"
+	"./ext/scalar_constants.hpp"
+	"./ext/scalar_integer.hpp"
+	"./ext/scalar_packing.hpp"
+	"./ext/scalar_relational.hpp"
+	"./ext/scalar_ulp.hpp"
+	"./ext/scalar_int_sized.hpp"
+	"./ext/scalar_uint_sized.hpp"
+	"./ext/vector_common.hpp"
+	"./ext/vector_integer.hpp"
+	"./ext/vector_packing.hpp"
+	"./ext/vector_relational.hpp"
+	"./ext/vector_ulp.hpp"
+	"./ext/vector_bool1.hpp"
+	"./ext/vector_bool1_precision.hpp"
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_double1.hpp"
+	"./ext/vector_double1_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_float1.hpp"
+	"./ext/vector_float1_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_int1.hpp"
+	"./ext/vector_int1_sized.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_sized.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_sized.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_sized.hpp"
+	"./ext/vector_uint1.hpp"
+	"./ext/vector_uint1_sized.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_sized.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_sized.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_sized.hpp"
+	"./gtc/bitfield.hpp"
+	"./gtc/color_space.hpp"
+	"./gtc/constants.hpp"
+	"./gtc/epsilon.hpp"
+	"./gtc/integer.hpp"
+	"./gtc/matrix_access.hpp"
+	"./gtc/matrix_integer.hpp"
+	"./gtc/matrix_inverse.hpp"
+	"./gtc/matrix_transform.hpp"
+	"./gtc/noise.hpp"
+	"./gtc/packing.hpp"
+	"./gtc/quaternion.hpp"
+	"./gtc/random.hpp"
+	"./gtc/reciprocal.hpp"
+	"./gtc/round.hpp"
+	"./gtc/type_precision.hpp"
+	"./gtc/type_ptr.hpp"
+	"./gtc/ulp.hpp"
+	"./gtc/vec1.hpp"
+	"./gtc/type_aligned.hpp"
+	"./gtx/associated_min_max.hpp"
+	"./gtx/bit.hpp"
+	"./gtx/closest_point.hpp"
+	"./gtx/color_encoding.hpp"
+	"./gtx/color_space.hpp"
+	"./gtx/color_space_YCoCg.hpp"
+	"./gtx/compatibility.hpp"
+	"./gtx/component_wise.hpp"
+	"./gtx/dual_quaternion.hpp"
+	"./gtx/euler_angles.hpp"
+	"./gtx/extend.hpp"
+	"./gtx/extended_min_max.hpp"
+	"./gtx/fast_exponential.hpp"
+	"./gtx/fast_square_root.hpp"
+	"./gtx/fast_trigonometry.hpp"
+	"./gtx/functions.hpp"
+	"./gtx/gradient_paint.hpp"
+	"./gtx/handed_coordinate_space.hpp"
+	"./gtx/integer.hpp"
+	"./gtx/intersect.hpp"
+	"./gtx/log_base.hpp"
+	"./gtx/matrix_cross_product.hpp"
+	"./gtx/matrix_interpolation.hpp"
+	"./gtx/matrix_major_storage.hpp"
+	"./gtx/matrix_operation.hpp"
+	"./gtx/matrix_query.hpp"
+	"./gtx/mixed_product.hpp"
+	"./gtx/norm.hpp"
+	"./gtx/normal.hpp"
+	"./gtx/normalize_dot.hpp"
+	"./gtx/number_precision.hpp"
+	"./gtx/optimum_pow.hpp"
+	"./gtx/orthonormalize.hpp"
+	"./gtx/perpendicular.hpp"
+	"./gtx/polar_coordinates.hpp"
+	"./gtx/projection.hpp"
+	"./gtx/quaternion.hpp"
+	"./gtx/raw_data.hpp"
+	"./gtx/rotate_vector.hpp"
+	"./gtx/spline.hpp"
+	"./gtx/std_based_type.hpp"
+	"./gtx/string_cast.hpp"
+	"./gtx/transform.hpp"
+	"./gtx/transform2.hpp"
+	"./gtx/vec_swizzle.hpp"
+	"./gtx/vector_angle.hpp"
+	"./gtx/vector_query.hpp"
+	"./gtx/wrap.hpp"
+	"./gtx/scalar_multiplication.hpp"
+	"./gtx/range.hpp"
+
+1554369868 d:\git\advanced-tools\glm\glm\ext\matrix_common.hpp
+	"../detail/qualifier.hpp"
+	"../detail/_fixes.hpp"
+	"matrix_common.inl"
+
+1554369868 d:\git\advanced-tools\glm\glm\ext\matrix_common.inl
+	"../matrix.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x2.hpp
+	"../mat2x2.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x2_sized.hpp
+	"../mat2x2.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x3.hpp
+	"../mat2x3.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x3_sized.hpp
+	"../mat2x3.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x4.hpp
+	"../mat2x4.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x4_sized.hpp
+	"../mat2x4.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x2.hpp
+	"../mat3x2.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x2_sized.hpp
+	"../mat3x2.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x3.hpp
+	"../mat3x3.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x3_sized.hpp
+	"../mat3x3.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x4.hpp
+	"../mat3x4.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x4_sized.hpp
+	"../mat3x4.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x2.hpp
+	"../mat4x2.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x2_sized.hpp
+	"../mat4x2.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x3.hpp
+	"../mat4x3.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x3_sized.hpp
+	"../mat4x3.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x4.hpp
+	"../mat4x4.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x4_sized.hpp
+	"../mat4x4.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x2.hpp
+	"../mat2x2.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x2_sized.hpp
+	"../mat2x2.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x3.hpp
+	"../mat2x3.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x3_sized.hpp
+	"../mat2x3.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x4.hpp
+	"../mat2x4.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x4_sized.hpp
+	"../mat2x4.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x2.hpp
+	"../mat3x2.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x2_sized.hpp
+	"../mat3x2.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x3.hpp
+	"../mat3x3.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x3_sized.hpp
+	"../mat3x3.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x4.hpp
+	"../mat3x4.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x4_sized.hpp
+	"../mat3x4.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x2.hpp
+	"../mat4x2.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x2_sized.hpp
+	"../mat4x2.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x3.hpp
+	"../mat4x3.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x3_sized.hpp
+	"../mat4x3.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x4.hpp
+	"../mat4x4.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x4_sized.hpp
+	"../mat4x4.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1540992241 d:\git\advanced-tools\glm\glm\ext\matrix_relational.hpp
+	"../detail/qualifier.hpp"
+	"matrix_relational.inl"
+
+1540992241 d:\git\advanced-tools\glm\glm\ext\matrix_relational.inl
+	"../ext/vector_relational.hpp"
+	"../common.hpp"
+
+1537173151 d:\git\advanced-tools\glm\glm\ext\quaternion_exponential.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../ext/scalar_constants.hpp"
+	"quaternion_exponential.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\ext\quaternion_exponential.inl
+	"scalar_constants.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\scalar_common.hpp
+	"../common.hpp"
+	"scalar_common.inl"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\scalar_common.inl
+
+1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_integer.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/_vectorize.hpp"
+	"../detail/type_float.hpp"
+	"../vector_relational.hpp"
+	"../common.hpp"
+	<limits>
+	"scalar_integer.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_integer.inl
+	"../integer.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\scalar_packing.hpp
+	"../detail/qualifier.hpp"
+	"scalar_packing.inl"
+
+1585554429 d:\git\advanced-tools\glm\glm\ext\scalar_packing.inl
+
+1540992241 d:\git\advanced-tools\glm\glm\ext\scalar_relational.hpp
+	"../detail/qualifier.hpp"
+	"scalar_relational.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_relational.inl
+	"../common.hpp"
+	"../ext/scalar_int_sized.hpp"
+	"../ext/scalar_uint_sized.hpp"
+	"../detail/type_float.hpp"
+
+1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_ulp.hpp
+	"../ext/scalar_int_sized.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"scalar_ulp.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_ulp.inl
+	"../detail/type_float.hpp"
+	"../ext/scalar_constants.hpp"
+	<cmath>
+	<cfloat>
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\vector_common.hpp
+	"../ext/scalar_common.hpp"
+	"../common.hpp"
+	"vector_common.inl"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\vector_common.inl
+	"../detail/_vectorize.hpp"
+
+1574087505 d:\git\advanced-tools\glm\glm\ext\vector_integer.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/_vectorize.hpp"
+	"../vector_relational.hpp"
+	"../common.hpp"
+	<limits>
+	"vector_integer.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\ext\vector_integer.inl
+	"scalar_integer.hpp"
+
+1586696336 d:\git\advanced-tools\glm\glm\ext\vector_packing.hpp
+	"../detail/qualifier.hpp"
+	"vector_packing.inl"
+
+1585554429 d:\git\advanced-tools\glm\glm\ext\vector_packing.inl
+
+1574087505 d:\git\advanced-tools\glm\glm\ext\vector_ulp.hpp
+	"../ext/scalar_ulp.hpp"
+	"vector_ulp.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\ext\vector_ulp.inl
+
+1551436142 d:\git\advanced-tools\glm\glm\gtc\bitfield.hpp
+	"../detail/setup.hpp"
+	"../ext/scalar_int_sized.hpp"
+	"../ext/scalar_uint_sized.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/_vectorize.hpp"
+	"type_precision.hpp"
+	<limits>
+	"bitfield.inl"
+
+1586696336 d:\git\advanced-tools\glm\glm\gtc\type_precision.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../ext/vector_int1_sized.hpp"
+	"../ext/vector_int2_sized.hpp"
+	"../ext/vector_int3_sized.hpp"
+	"../ext/vector_int4_sized.hpp"
+	"../ext/scalar_int_sized.hpp"
+	"../ext/vector_uint1_sized.hpp"
+	"../ext/vector_uint2_sized.hpp"
+	"../ext/vector_uint3_sized.hpp"
+	"../ext/vector_uint4_sized.hpp"
+	"../ext/scalar_uint_sized.hpp"
+	"../detail/type_vec2.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../detail/type_mat2x2.hpp"
+	"../detail/type_mat2x3.hpp"
+	"../detail/type_mat2x4.hpp"
+	"../detail/type_mat3x2.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat3x4.hpp"
+	"../detail/type_mat4x2.hpp"
+	"../detail/type_mat4x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"type_precision.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtc\type_precision.inl
+
+1533815222 d:\git\advanced-tools\glm\glm\gtc\bitfield.inl
+	"../simd/integer.h"
+
+1531728368 d:\git\advanced-tools\glm\glm\gtc\color_space.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"../exponential.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	<limits>
+	"color_space.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtc\color_space.inl
+
+1574087505 d:\git\advanced-tools\glm\glm\gtc\integer.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"../common.hpp"
+	"../integer.hpp"
+	"../exponential.hpp"
+	<limits>
+	"integer.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtc\integer.inl
+
+1531728368 d:\git\advanced-tools\glm\glm\gtc\matrix_access.hpp
+	"../detail/setup.hpp"
+	"matrix_access.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtc\matrix_access.inl
+
+1586696336 d:\git\advanced-tools\glm\glm\gtc\matrix_integer.hpp
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+
+1531728368 d:\git\advanced-tools\glm\glm\gtc\matrix_inverse.hpp
+	"../detail/setup.hpp"
+	"../matrix.hpp"
+	"../mat2x2.hpp"
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"matrix_inverse.inl"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtc\matrix_inverse.inl
+
+1531728368 d:\git\advanced-tools\glm\glm\gtc\noise.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/_noise.hpp"
+	"../geometric.hpp"
+	"../common.hpp"
+	"../vector_relational.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"noise.inl"
+
+1535527970 d:\git\advanced-tools\glm\glm\detail\_noise.hpp
+	"../common.hpp"
+
+1540992241 d:\git\advanced-tools\glm\glm\gtc\noise.inl
+
+1585554429 d:\git\advanced-tools\glm\glm\gtc\packing.hpp
+	"type_precision.hpp"
+	"../ext/vector_packing.hpp"
+	"packing.inl"
+
+1539072281 d:\git\advanced-tools\glm\glm\gtc\packing.inl
+	"../ext/scalar_relational.hpp"
+	"../ext/vector_relational.hpp"
+	"../common.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../detail/type_half.hpp"
+	<cstring>
+	<limits>
+
+1535527970 d:\git\advanced-tools\glm\glm\gtc\random.hpp
+	"../ext/scalar_int_sized.hpp"
+	"../ext/scalar_uint_sized.hpp"
+	"../detail/qualifier.hpp"
+	"random.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\gtc\random.inl
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../trigonometric.hpp"
+	"../detail/type_vec1.hpp"
+	<cstdlib>
+	<ctime>
+	<cassert>
+	<cmath>
+
+1531728368 d:\git\advanced-tools\glm\glm\gtc\reciprocal.hpp
+	"../detail/setup.hpp"
+	"reciprocal.inl"
+
+1537965165 d:\git\advanced-tools\glm\glm\gtc\reciprocal.inl
+	"../trigonometric.hpp"
+	<limits>
+
+1574087505 d:\git\advanced-tools\glm\glm\gtc\round.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/_vectorize.hpp"
+	"../vector_relational.hpp"
+	"../common.hpp"
+	<limits>
+	"round.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\gtc\round.inl
+	"../integer.hpp"
+	"../ext/vector_integer.hpp"
+
+1537173151 d:\git\advanced-tools\glm\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtc\type_ptr.inl
+	<cstring>
+
+1574087505 d:\git\advanced-tools\glm\glm\gtc\ulp.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/_vectorize.hpp"
+	"../ext/scalar_int_sized.hpp"
+	"ulp.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\gtc\ulp.inl
+	"../ext/scalar_ulp.hpp"
+
+1540992241 d:\git\advanced-tools\glm\glm\gtc\type_aligned.hpp
+	"../mat4x4.hpp"
+	"../mat4x3.hpp"
+	"../mat4x2.hpp"
+	"../mat3x4.hpp"
+	"../mat3x3.hpp"
+	"../mat3x2.hpp"
+	"../mat2x4.hpp"
+	"../mat2x3.hpp"
+	"../mat2x2.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\associated_min_max.hpp
+	"../glm.hpp"
+	"associated_min_max.inl"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\associated_min_max.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\bit.hpp
+	"../gtc/bitfield.hpp"
+	"bit.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\bit.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\closest_point.hpp
+	"../glm.hpp"
+	"closest_point.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\closest_point.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\color_encoding.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"../vec3.hpp"
+	<limits>
+	"color_encoding.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\color_encoding.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\color_space.hpp
+	"../glm.hpp"
+	"color_space.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\color_space.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\color_space_ycocg.hpp
+	"../glm.hpp"
+	"color_space_YCoCg.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\color_space_ycocg.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\compatibility.hpp
+	"../glm.hpp"
+	"../gtc/quaternion.hpp"
+	<cfloat>
+	<cmath>
+	"compatibility.inl"
+
+1535527970 d:\git\advanced-tools\glm\glm\gtx\compatibility.inl
+	<limits>
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\component_wise.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"component_wise.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\component_wise.inl
+	<limits>
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\euler_angles.hpp
+	"../glm.hpp"
+	"euler_angles.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\euler_angles.inl
+	"compatibility.hpp"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\extend.hpp
+	"../glm.hpp"
+	"extend.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\extend.inl
+
+1586696336 d:\git\advanced-tools\glm\glm\gtx\extended_min_max.hpp
+	"../glm.hpp"
+	"../ext/vector_common.hpp"
+	"extended_min_max.inl"
+
+1586696336 d:\git\advanced-tools\glm\glm\gtx\extended_min_max.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\fast_exponential.hpp
+	"../glm.hpp"
+	"fast_exponential.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\fast_exponential.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\fast_square_root.hpp
+	"../common.hpp"
+	"../exponential.hpp"
+	"../geometric.hpp"
+	"fast_square_root.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\gtx\fast_square_root.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\fast_trigonometry.hpp
+	"../gtc/constants.hpp"
+	"fast_trigonometry.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\fast_trigonometry.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\functions.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_vec2.hpp"
+	"functions.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\functions.inl
+	"../exponential.hpp"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\gradient_paint.hpp
+	"../glm.hpp"
+	"../gtx/optimum_pow.hpp"
+	"gradient_paint.inl"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\optimum_pow.hpp
+	"../glm.hpp"
+	"optimum_pow.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\optimum_pow.inl
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\gradient_paint.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\handed_coordinate_space.hpp
+	"../glm.hpp"
+	"handed_coordinate_space.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\handed_coordinate_space.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\integer.hpp
+	"../glm.hpp"
+	"../gtc/integer.hpp"
+	"integer.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\integer.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\intersect.hpp
+	<cfloat>
+	<limits>
+	"../glm.hpp"
+	"../geometric.hpp"
+	"../gtx/closest_point.hpp"
+	"../gtx/vector_query.hpp"
+	"intersect.inl"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\vector_query.hpp
+	"../glm.hpp"
+	<cfloat>
+	<limits>
+	"vector_query.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\vector_query.inl
+	<cassert>
+
+1574087505 d:\git\advanced-tools\glm\glm\gtx\intersect.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\log_base.hpp
+	"../glm.hpp"
+	"log_base.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\log_base.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\matrix_cross_product.hpp
+	"../glm.hpp"
+	"matrix_cross_product.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\matrix_cross_product.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\matrix_interpolation.hpp
+	"../glm.hpp"
+	"matrix_interpolation.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\matrix_interpolation.inl
+	"../gtc/constants.hpp"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\matrix_major_storage.hpp
+	"../glm.hpp"
+	"matrix_major_storage.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\matrix_major_storage.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\matrix_operation.hpp
+	"../glm.hpp"
+	"matrix_operation.inl"
+
+1540992242 d:\git\advanced-tools\glm\glm\gtx\matrix_operation.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\matrix_query.hpp
+	"../glm.hpp"
+	"../gtx/vector_query.hpp"
+	<limits>
+	"matrix_query.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\matrix_query.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\mixed_product.hpp
+	"../glm.hpp"
+	"mixed_product.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\mixed_product.inl
+
+1574087505 d:\git\advanced-tools\glm\glm\gtx\norm.hpp
+	"../geometric.hpp"
+	"../gtx/quaternion.hpp"
+	"../gtx/component_wise.hpp"
+	"norm.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\gtx\quaternion.hpp
+	"../glm.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/quaternion.hpp"
+	"../ext/quaternion_exponential.hpp"
+	"../gtx/norm.hpp"
+	"quaternion.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\gtx\quaternion.inl
+	<limits>
+	"../gtc/constants.hpp"
+
+1574087505 d:\git\advanced-tools\glm\glm\gtx\norm.inl
+	"../detail/qualifier.hpp"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\normal.hpp
+	"../glm.hpp"
+	"normal.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\normal.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\normalize_dot.hpp
+	"../gtx/fast_square_root.hpp"
+	"normalize_dot.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\normalize_dot.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\number_precision.hpp
+	"../glm.hpp"
+	"../gtc/type_precision.hpp"
+	"number_precision.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\number_precision.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\orthonormalize.hpp
+	"../vec3.hpp"
+	"../mat3x3.hpp"
+	"../geometric.hpp"
+	"orthonormalize.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\orthonormalize.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\perpendicular.hpp
+	"../glm.hpp"
+	"../gtx/projection.hpp"
+	"perpendicular.inl"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\projection.hpp
+	"../geometric.hpp"
+	"projection.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\projection.inl
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\perpendicular.inl
+
+1585554429 d:\git\advanced-tools\glm\glm\gtx\polar_coordinates.hpp
+	"../glm.hpp"
+	"polar_coordinates.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\polar_coordinates.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\raw_data.hpp
+	"../ext/scalar_uint_sized.hpp"
+	"../detail/setup.hpp"
+	"raw_data.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\raw_data.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\rotate_vector.hpp
+	"../gtx/transform.hpp"
+	"../gtc/epsilon.hpp"
+	"../ext/vector_relational.hpp"
+	"../glm.hpp"
+	"rotate_vector.inl"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\transform.inl
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\rotate_vector.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\spline.hpp
+	"../glm.hpp"
+	"../gtx/optimum_pow.hpp"
+	"spline.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\spline.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\std_based_type.hpp
+	"../glm.hpp"
+	<cstdlib>
+	"std_based_type.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\std_based_type.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\string_cast.hpp
+	"../glm.hpp"
+	"../gtc/type_precision.hpp"
+	"../gtc/quaternion.hpp"
+	"../gtx/dual_quaternion.hpp"
+	<string>
+	<cmath>
+	"string_cast.inl"
+
+1574087505 d:\git\advanced-tools\glm\glm\gtx\string_cast.inl
+	<cstdarg>
+	<cstdio>
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\transform2.hpp
+	"../glm.hpp"
+	"../gtx/transform.hpp"
+	"transform2.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\transform2.inl
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\vec_swizzle.hpp
+	"../glm.hpp"
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\vector_angle.hpp
+	"../glm.hpp"
+	"../gtc/epsilon.hpp"
+	"../gtx/quaternion.hpp"
+	"../gtx/rotate_vector.hpp"
+	"vector_angle.inl"
+
+1533815222 d:\git\advanced-tools\glm\glm\gtx\vector_angle.inl
+
+1586696336 d:\git\advanced-tools\glm\glm\gtx\wrap.hpp
+	"../glm.hpp"
+	"../ext/scalar_common.hpp"
+	"../ext/vector_common.hpp"
+	"../gtc/vec1.hpp"
+	"wrap.inl"
+
+1586696336 d:\git\advanced-tools\glm\glm\gtx\wrap.inl
+
+1585554429 d:\git\advanced-tools\glm\glm\gtx\scalar_multiplication.hpp
+	"../detail/setup.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	<type_traits>
+
+1554369868 d:\git\advanced-tools\glm\glm\gtx\range.hpp
+	"../detail/setup.hpp"
+	"../gtc/type_ptr.hpp"
+	"../gtc/vec1.hpp"
 

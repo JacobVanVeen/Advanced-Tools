@@ -5,6 +5,8 @@
 #include <SDL_opengl.h>
 #include <iostream>
 #include "MovingShape.h"
+#include "cube.h"
+#include "Camera.h"
 
 
 
@@ -67,18 +69,26 @@ void Game::SetupOpenGlWindow()
         std::cout << "Error initializing Glew, error: " << err << std::endl;
         return;
     }
+    camera = new Camera();
     renderer = new Renderer();
     world = new World();
+    world->AddToWorld(camera);
 
+    camera->SetPos(glm::vec3(0,0,-2));
+    camera->SetRot(glm::vec3(0,3.14,0));
+   // camera->SetRot(glm::vec3(0,3.14,0));
 
-
-    Gameobject* tryout = new Gameobject("Tryout");
+    Cube* tryout = new Cube("cube");
     tryout->Verts.push_back(glm::vec3(0.0f,  0.5f,  0.0f));
     tryout->Verts.push_back(glm::vec3(0.5f, -0.5f,  0.0f));
     tryout->Verts.push_back(glm::vec3(-0.5f, -0.5f,  0.0f));
     world->AddToWorld(tryout);
 
 
+        // change background color
+    glClearColor(1.0f,0.0f,1.0f,0.0f);
+
+    return;
         Gameobject* tryout2 = new Gameobject("Tryout2");
     tryout2->Verts.push_back(glm::vec3(1.0f,  1.0f,  0.0f));
     tryout2->Verts.push_back(glm::vec3(0.7f, 0.7f,  0.0f));

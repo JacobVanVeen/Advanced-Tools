@@ -2,6 +2,7 @@
 #define GAME_H
 #include <SDL.h>
 #include "Renderer.h"
+#include "Camera.h"
 
 class Game
 {
@@ -20,7 +21,7 @@ class Game
         int fps =0;
         Renderer* renderer;
         World* world;
-
+        Camera* camera;
 };
 
 #endif // GAME_H

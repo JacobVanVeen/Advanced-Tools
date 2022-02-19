@@ -2,6 +2,7 @@
 #define GAMEOBJECT_H
 #include <vector>
 #include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
 #include <glew.h>
 #include <string>
 class Gameobject
@@ -25,7 +26,9 @@ class Gameobject
         glm::vec3 GetRot() {return rotation;}
         void SetPos(glm::vec3 pPos);
         void SetRot(glm::vec3 pRot);
+        glm::mat4 GetMatrix();
         virtual void Update(int pDeltaTime);
+        void rotateObject(glm::vec3 pAxis,float degrees);
     protected:
         void render();
     private:

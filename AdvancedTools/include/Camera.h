@@ -9,7 +9,8 @@ class Camera : public Gameobject
         static Camera* MainCamera;
         Camera();
         virtual ~Camera();
-
+        glm::mat4 GetProjectionMatrix();
+        void Update(int pDetalTime) override;
 
     protected:
 

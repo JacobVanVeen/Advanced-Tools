@@ -11,13 +11,14 @@ class Renderer
         Renderer();
         virtual ~Renderer();
         virtual void Render(World* pWorld);
-        virtual void Render(Gameobject* pObject);
+        virtual void Render(Gameobject* pObject,glm::mat4& pViewMat,glm::mat4& pProjectionMat);
 
     protected:
 
     private:
         SDL_GLContext* ctx;
         GLuint shader_programme;
+
 };
 
 #endif // RENDERER_H
