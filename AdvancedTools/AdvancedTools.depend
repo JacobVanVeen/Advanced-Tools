@@ -383,14 +383,15 @@
 	"begin_code.h"
 	"close_code.h"
 
-1644632927 source:d:\git\advanced-tools\advancedtools\main.cpp
+1645485353 source:d:\git\advanced-tools\advancedtools\main.cpp
 	<exception>
 	<string>
 	<iostream>
 	<SDL.h>
 	"Game.h"
+	"Cube.h"
 
-1645227223 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
+1645486602 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
 	<iostream>
 	"Gameobject.h"
 	<glm/glm.hpp>
@@ -788,7 +789,7 @@
 	"Renderer.h"
 	"Camera.h"
 
-1645227727 source:d:\git\advanced-tools\advancedtools\src\game.cpp
+1645491920 source:d:\git\advanced-tools\advancedtools\src\game.cpp
 	"Game.h"
 	<SDL.h>
 	<glew.h>
@@ -3112,7 +3113,7 @@
 	<SDL.h>
 	<glew.h>
 
-1645227356 source:d:\git\advanced-tools\advancedtools\src\renderer.cpp
+1645490238 source:d:\git\advanced-tools\advancedtools\src\renderer.cpp
 	"Renderer.h"
 	<SDL.h>
 	<SDL_opengl.h>
@@ -3120,7 +3121,7 @@
 	"Camera.h"
 	"glm/ext.hpp"
 
-1645227602 source:d:\git\advanced-tools\advancedtools\src\camera.cpp
+1645475055 source:d:\git\advanced-tools\advancedtools\src\camera.cpp
 	"Camera.h"
 	"Gameobject.h"
 	<string>
@@ -3139,12 +3140,15 @@
 1644918195 d:\git\advanced-tools\advancedtools\include\movingshape.h
 	"Gameobject.h"
 
-1645217441 d:\git\advanced-tools\advancedtools\include\cube.h
+1645493229 d:\git\advanced-tools\advancedtools\include\cube.h
 	<string>
 	"Gameobject.h"
+	<glm/glm.hpp>
 
-1645218366 source:d:\git\advanced-tools\advancedtools\src\cube.cpp
+1645491806 source:d:\git\advanced-tools\advancedtools\src\cube.cpp
 	"Cube.h"
+	<iostream>
+	<vector>
 
 1586696336 d:\git\advanced-tools\glm\glm\ext.hpp
 	"detail/setup.hpp"

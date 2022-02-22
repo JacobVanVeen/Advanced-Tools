@@ -50,7 +50,7 @@ void Game::SetupOpenGlWindow()
         std::cout << "Can't create window" << std::endl;
         return;
     }
-
+            SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE,32);
         ctx = SDL_GL_CreateContext(window);
 
     if (ctx == NULL)
@@ -79,14 +79,11 @@ void Game::SetupOpenGlWindow()
    // camera->SetRot(glm::vec3(0,3.14,0));
 
     Cube* tryout = new Cube("cube");
-    tryout->Verts.push_back(glm::vec3(0.0f,  0.5f,  0.0f));
-    tryout->Verts.push_back(glm::vec3(0.5f, -0.5f,  0.0f));
-    tryout->Verts.push_back(glm::vec3(-0.5f, -0.5f,  0.0f));
     world->AddToWorld(tryout);
 
 
         // change background color
-    glClearColor(1.0f,0.0f,1.0f,0.0f);
+    glClearColor(0.0f,0.0f,0.0f,0.0f);
 
     return;
         Gameobject* tryout2 = new Gameobject("Tryout2");

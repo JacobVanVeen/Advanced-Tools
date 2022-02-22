@@ -19,11 +19,11 @@ Camera::~Camera()
 
 glm::mat4 Camera::GetProjectionMatrix()
 {
-    return glm::perspective((float)90,(float)1,(float)0.1,(float)10000);
+    return glm::perspective((float)45,(float)1,(float)0.1,(float)10000);
 }
 
 void Camera::Update(int pDetalTime)
 {
-    rotateObject(glm::vec3(1,0,0),0.01);
+    //rotateObject(glm::vec3(1,0,0),0.01);
    // SetRot(GetRot() + glm::vec3(0,0.01,0));
 }

@@ -25,7 +25,12 @@ Renderer::Renderer()
         SDL_GL_CONTEXT_PROFILE_MASK,
         SDL_GL_CONTEXT_PROFILE_CORE);
 
-
+        glEnable(GL_DEPTH_TEST);
+        glFrontFace(GL_CCW);
+        glEnable(GL_CULL_FACE);
+        glCullFace(GL_BACK);
+	/*glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);*/
 
     const char* vertex_shader =
     "#version 400\n"
@@ -41,6 +46,7 @@ Renderer::Renderer()
    // "  gl_Position = vec4(vp, 1.0);"
     "  gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(vp, 1.f);"
     "  float c = (1+gl_Position.y)/2;"
+    "   c += 0.1;"
     "  colorv = vec4(c,c,0,1);"
     "}";
 
@@ -78,8 +84,8 @@ Renderer::~Renderer()
 
 void Renderer::Render(World* pWorld)
 {
-
-    glClear(GL_COLOR_BUFFER_BIT); // clear screen
+    glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
+    //glClear(GL_COLOR_BUFFER_BIT); // clear screen
     glm::mat4 viewMatrix = glm::inverse(Camera::MainCamera->GetMatrix());
     glm::mat4 ProjectionMatrix = Camera::MainCamera->GetProjectionMatrix();
 
@@ -114,7 +120,7 @@ void Renderer::Render(Gameobject* pObject,glm::mat4& pViewMat,glm::mat4& pProjec
 
 
     // draw points 0-3 from the currently bound VAO with current in-use shader
-    glDrawArrays(GL_TRIANGLES, 0, 3);
+    glDrawArrays(GL_TRIANGLES, 0, pObject->Verts.size());
     }
 
      std::vector<Gameobject*> children = pObject->GetChildren();

@@ -64,7 +64,7 @@ void Gameobject::SetRot(glm::vec3 pRot)
 void Gameobject::rotateObject(glm::vec3 pAxis,float degrees)
 {
     translationMatrix = glm::rotate(translationMatrix,degrees,pAxis);
-    std::cout << glm::to_string(translationMatrix) << std::endl;
+    //std::cout << glm::to_string(translationMatrix) << std::endl;
     //std::cout << glm::to_string(pAxis) << std::endl;
     //std::cout << degrees << std::endl;
 }
