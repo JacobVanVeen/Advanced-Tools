@@ -7,7 +7,7 @@
 #include "MovingShape.h"
 #include "cube.h"
 #include "Camera.h"
-
+#include "RandomNumber.h"
 
 
 int windowHeight;
@@ -74,12 +74,17 @@ void Game::SetupOpenGlWindow()
     world = new World();
     world->AddToWorld(camera);
 
-    camera->SetPos(glm::vec3(0,0,-2));
-    camera->SetRot(glm::vec3(0,3.14,0));
+    camera->SetPos(glm::vec3(0,0,-10));
+    camera->SetRot(glm::vec3(0,3.14f,0));
+    //camera->SetRot(glm::vec3(-3.14f / 4,3.14f,0));
    // camera->SetRot(glm::vec3(0,3.14,0));
 
     Cube* tryout = new Cube("cube");
     world->AddToWorld(tryout);
+
+    Cube* cube2 = new Cube("cube2");
+    world->AddToWorld(cube2);
+    cube2->SetPos(glm::vec3(-1,0,6));
 
 
         // change background color

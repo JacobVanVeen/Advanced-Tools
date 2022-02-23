@@ -383,7 +383,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1645485353 source:d:\git\advanced-tools\advancedtools\main.cpp
+1645569260 source:d:\git\advanced-tools\advancedtools\main.cpp
 	<exception>
 	<string>
 	<iostream>
@@ -391,15 +391,16 @@
 	"Game.h"
 	"Cube.h"
 
-1645486602 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
+1645581004 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
 	<iostream>
 	"Gameobject.h"
 	<glm/glm.hpp>
 	<algorithm>
 	"glm/ext.hpp"
 	"glm/gtx/string_cast.hpp"
+	"glm/gtx/rotate_vector.hpp"
 
-1645223605 d:\git\advanced-tools\advancedtools\include\gameobject.h
+1645573537 d:\git\advanced-tools\advancedtools\include\gameobject.h
 	<vector>
 	<glm/glm.hpp>
 	<glm/gtc/matrix_transform.hpp>
@@ -789,7 +790,7 @@
 	"Renderer.h"
 	"Camera.h"
 
-1645491920 source:d:\git\advanced-tools\advancedtools\src\game.cpp
+1645581602 source:d:\git\advanced-tools\advancedtools\src\game.cpp
 	"Game.h"
 	<SDL.h>
 	<glew.h>
@@ -798,6 +799,7 @@
 	"MovingShape.h"
 	"cube.h"
 	"Camera.h"
+	"RandomNumber.h"
 
 1501497981 d:\git\advanced-tools\glew-2.1.0\include\gl\glew.h
 	<stddef.h>
@@ -3113,7 +3115,7 @@
 	<SDL.h>
 	<glew.h>
 
-1645490238 source:d:\git\advanced-tools\advancedtools\src\renderer.cpp
+1645581978 source:d:\git\advanced-tools\advancedtools\src\renderer.cpp
 	"Renderer.h"
 	<SDL.h>
 	<SDL_opengl.h>
@@ -3121,13 +3123,16 @@
 	"Camera.h"
 	"glm/ext.hpp"
 
-1645475055 source:d:\git\advanced-tools\advancedtools\src\camera.cpp
+1645581770 source:d:\git\advanced-tools\advancedtools\src\camera.cpp
 	"Camera.h"
 	"Gameobject.h"
 	<string>
 	<iostream>
+	<SDL.h>
+	"glm/gtx/string_cast.hpp"
+	"glm/gtx/rotate_vector.hpp"
 
-1645223253 d:\git\advanced-tools\advancedtools\include\camera.h
+1645578150 d:\git\advanced-tools\advancedtools\include\camera.h
 	<glm/glm.hpp>
 	"Gameobject.h"
 
@@ -3145,7 +3150,7 @@
 	"Gameobject.h"
 	<glm/glm.hpp>
 
-1645491806 source:d:\git\advanced-tools\advancedtools\src\cube.cpp
+1645581480 source:d:\git\advanced-tools\advancedtools\src\cube.cpp
 	"Cube.h"
 	<iostream>
 	<vector>
@@ -4156,4 +4161,11 @@
 	"../detail/setup.hpp"
 	"../gtc/type_ptr.hpp"
 	"../gtc/vec1.hpp"
+
+1645568380 source:d:\git\advanced-tools\advancedtools\src\randomnumber.cpp
+	"RandomNumber.h"
+	<cstdlib>
+	<ctime>
+
+1645568279 d:\git\advanced-tools\advancedtools\include\randomnumber.h
 

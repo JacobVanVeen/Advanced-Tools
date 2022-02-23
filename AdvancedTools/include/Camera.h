@@ -11,7 +11,7 @@ class Camera : public Gameobject
         virtual ~Camera();
         glm::mat4 GetProjectionMatrix();
         void Update(int pDetalTime) override;
-
+        void LookAt(glm::vec3 pPoint);
     protected:
 
     private:

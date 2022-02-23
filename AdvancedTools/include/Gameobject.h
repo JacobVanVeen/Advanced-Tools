@@ -22,19 +22,21 @@ class Gameobject
 
         GLuint buffNumber = NULL;
         GLuint vertexBuff = NULL;
-        glm::vec3 GetPos() {return position;}
+        glm::vec3 GetPos();
         glm::vec3 GetRot() {return rotation;}
         void SetPos(glm::vec3 pPos);
         void SetRot(glm::vec3 pRot);
         glm::mat4 GetMatrix();
         virtual void Update(int pDeltaTime);
         void rotateObject(glm::vec3 pAxis,float degrees);
+        void rotateAround(glm::vec3 pObject,glm::vec3 pAxis,float pRads);
     protected:
         void render();
+        glm::mat4 translationMatrix;
     private:
         glm::vec3 position;
         glm::vec3 rotation;
-        glm::mat4 translationMatrix;
+
         std::vector<Gameobject*> childeren;
         Gameobject* parent;
 };

@@ -563,6 +563,7 @@
 		<Unit filename="include/Game.h" />
 		<Unit filename="include/Gameobject.h" />
 		<Unit filename="include/MovingShape.h" />
+		<Unit filename="include/RandomNumber.h" />
 		<Unit filename="include/Renderer.h" />
 		<Unit filename="include/World.h" />
 		<Unit filename="main.cpp" />
@@ -573,6 +574,7 @@
 		<Unit filename="src/Game.cpp" />
 		<Unit filename="src/Gameobject.cpp" />
 		<Unit filename="src/MovingShape.cpp" />
+		<Unit filename="src/RandomNumber.cpp" />
 		<Unit filename="src/Renderer.cpp" />
 		<Unit filename="src/World.cpp" />
 		<Extensions />

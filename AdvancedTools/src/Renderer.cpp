@@ -45,9 +45,11 @@ Renderer::Renderer()
 
    // "  gl_Position = vec4(vp, 1.0);"
     "  gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(vp, 1.f);"
-    "  float c = (1+gl_Position.y)/2;"
-    "   c += 0.1;"
-    "  colorv = vec4(c,c,0,1);"
+    "  float r = (2.2+(gl_Position.x))/2;"
+    "  float g = (2.2+(gl_Position.y))/2;"
+    "  float b = (2.2+(gl_Position.z))/2;"
+    //"   c += 1;"
+    "  colorv = vec4(r,g,0,0.1);"
     "}";
 
     const char* fragment_shader =

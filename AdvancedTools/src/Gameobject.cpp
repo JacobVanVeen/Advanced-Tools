@@ -5,6 +5,7 @@
 #include <algorithm>
 #include "glm/ext.hpp"
 #include "glm/gtx/string_cast.hpp"
+#include "glm/gtx/rotate_vector.hpp"
 
 Gameobject::Gameobject()
 {
@@ -49,6 +50,12 @@ void Gameobject::SetPos(glm::vec3 pPos)
     translationMatrix[3][2] = pPos[2];
 }
 
+glm::vec3 Gameobject::GetPos()
+{
+    return translationMatrix[3];
+}
+
+
 void Gameobject::SetRot(glm::vec3 pRot)
 {
 
@@ -68,6 +75,16 @@ void Gameobject::rotateObject(glm::vec3 pAxis,float degrees)
     //std::cout << glm::to_string(pAxis) << std::endl;
     //std::cout << degrees << std::endl;
 }
+
+void Gameobject::rotateAround(glm::vec3 pObject,glm::vec3 pAxis,float pRads)
+{
+    glm::vec3 diff = GetPos() - pObject;
+    diff = glm::rotate(diff,pRads,pAxis);
+    SetPos(pObject + diff);
+}
+
+
+
 
 void Gameobject::Update(int pDeltaTime)
 {
@@ -89,6 +106,7 @@ glm::mat4 Gameobject::GetMatrix()
 {
     return translationMatrix;
 }
+
 
 /*glm::mat4 SetMatrix(glm::mat4 pMat)
 {
