@@ -36,29 +36,28 @@ Renderer::Renderer()
     "#version 400\n"
     "in vec3 vp;"
     "in vec4 vcolor;"
+    "out vec3 normal;"
+    "out vec3 fragPos;"
     "uniform mat4 projectionMatrix;"
     "uniform mat4 viewMatrix;"
     "uniform mat4 modelMatrix;"
-    "out vec4 colorv;"
     "void main() {"
-    //"  colorv = vcolor;"
-
    // "  gl_Position = vec4(vp, 1.0);"
     "  gl_Position = projectionMatrix * viewMatrix * modelMatrix * vec4(vp, 1.f);"
-    "  float r = (2.2+(gl_Position.x))/2;"
-    "  float g = (2.2+(gl_Position.y))/2;"
-    "  float b = (2.2+(gl_Position.z))/2;"
-    //"   c += 1;"
-    "  colorv = vec4(r,g,0,0.1);"
+    "  fragPos = vec3(modelMatrix * vec4(vp,1.0));"
+    " normal = vec3(normalize(modelMatrix * vec4(vp,0)));"
     "}";
 
     const char* fragment_shader =
     "#version 400\n"
     "out vec4 frag_colour;"
-    "in vec4 colorv;"
+   // "in vec4 colorv;"
+    "in vec3 normal;"
+    "in vec3 fragPos;"
     "void main() {"
-    //"  frag_colour = vec4(1, 0.0, 0, 1.0);"
-    "  frag_colour = colorv;"
+    "  vec3 lightDir = normalize(vec3(2,3,0) - fragPos);"
+    "  float diff = max(dot(normal,lightDir),0.0);"
+    "  frag_colour = (0.1 + diff) * vec4(1, 0.0, 0, 1.0);"
     "}";
     GLuint vs = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(vs, 1, &vertex_shader, NULL);
