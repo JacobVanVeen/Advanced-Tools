@@ -11,7 +11,12 @@ Colider::~Colider()
     //dtor
 }
 
-bool Colider::IsColiding(BoxColider* pBoxA,BoxColider* pBoxB)
+Gameobject* Colider::GetOwner()
 {
-
+    return owner;
 }
+
+//bool Colider::IsColiding(Colider* pOther)
+//{
+//
+//}

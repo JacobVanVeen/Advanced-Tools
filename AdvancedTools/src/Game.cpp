@@ -79,7 +79,7 @@ void Game::SetupOpenGlWindow()
     //camera->SetRot(glm::vec3(-3.14f / 4,3.14f,0));
    // camera->SetRot(glm::vec3(0,3.14,0));
 
-    Cube* tryout = new Cube("cube");
+    KeyboardCube* tryout = new KeyboardCube();
     world->AddToWorld(tryout);
 
     Cube* cube2 = new Cube("cube2");
@@ -87,10 +87,17 @@ void Game::SetupOpenGlWindow()
     cube2->SetPos(glm::vec3(-1,0,6));
 
 
+    BoxColider* boxA = new BoxColider(tryout);
+    BoxColider* boxB = new BoxColider(cube2);
+
+    coliders.push_back(boxA);
+    coliders.push_back(boxB);
+
+
         // change background color
     glClearColor(0.0f,0.0f,0.0f,0.0f);
 
-    return;
+    return; //////////////////////////////////////////////////////////////////////////////////////////////////////
         Gameobject* tryout2 = new Gameobject("Tryout2");
     tryout2->Verts.push_back(glm::vec3(1.0f,  1.0f,  0.0f));
     tryout2->Verts.push_back(glm::vec3(0.7f, 0.7f,  0.0f));
@@ -103,6 +110,11 @@ void Game::SetupOpenGlWindow()
     tryout3->Verts.push_back(glm::vec3(-0.7f, -0.7f,  0.0f));
     tryout3->Verts.push_back(glm::vec3(-1.0f, 0.0f,  0.0f));
     tryout->AddChild(tryout3);
+
+
+
+
+
 
     return;
 
@@ -207,6 +219,7 @@ void Game::Run()
     bool running = true;
     while (running)
     {
+        Game::CheckColisions();
         uint32_t timeSinceLastFrame = (SDL_GetTicks() - timebase);
         if (timeSinceLastFrame != 0)
         {
@@ -280,6 +293,11 @@ void Game::Run()
     SDL_GL_DeleteContext(ctx);
     SDL_DestroyWindow(window);
     SDL_Quit();
+}
+
+void Game::CheckColisions()
+{
+    coliders.at(0)->IsColiding(coliders.at(1));
 }
 
 

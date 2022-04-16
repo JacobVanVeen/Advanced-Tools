@@ -383,7 +383,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1645569260 source:d:\git\advanced-tools\advancedtools\main.cpp
+1645572860 source:d:\git\advanced-tools\advancedtools\main.cpp
 	<exception>
 	<string>
 	<iostream>
@@ -391,7 +391,7 @@
 	"Game.h"
 	"Cube.h"
 
-1645581004 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
+1645584604 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
 	<iostream>
 	"Gameobject.h"
 	<glm/glm.hpp>
@@ -400,14 +400,14 @@
 	"glm/gtx/string_cast.hpp"
 	"glm/gtx/rotate_vector.hpp"
 
-1645573537 d:\git\advanced-tools\advancedtools\include\gameobject.h
+1645577137 d:\git\advanced-tools\advancedtools\include\gameobject.h
 	<vector>
 	<glm/glm.hpp>
 	<glm/gtc/matrix_transform.hpp>
 	<glew.h>
 	<string>
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -444,12 +444,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -478,28 +478,28 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_config.h
 	"SDL_platform.h"
 	<winsdkver.h>
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\begin_code.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\begin_code.h
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\close_code.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\close_code.h
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
@@ -507,7 +507,7 @@
 	<mbarrier.h>
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -517,12 +517,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<endian.h>
@@ -531,13 +531,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -548,18 +548,18 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -579,7 +579,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -593,7 +593,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -601,13 +601,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -615,7 +615,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -624,11 +624,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -636,27 +636,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -665,17 +665,17 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -683,70 +683,70 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_hidapi.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -755,7 +755,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -763,34 +763,37 @@
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_locale.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_misc.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1645222358 d:\git\advanced-tools\advancedtools\include\game.h
+1650085743 d:\git\advanced-tools\advancedtools\include\game.h
 	<SDL.h>
 	"Renderer.h"
 	"Camera.h"
+	"BoxColider.h"
+	"KeyboardCube.h"
+	"Colider.h"
 
-1645581602 source:d:\git\advanced-tools\advancedtools\src\game.cpp
+1650085832 source:d:\git\advanced-tools\advancedtools\src\game.cpp
 	"Game.h"
 	<SDL.h>
 	<glew.h>
@@ -801,7 +804,7 @@
 	"Camera.h"
 	"RandomNumber.h"
 
-1501497981 d:\git\advanced-tools\glew-2.1.0\include\gl\glew.h
+1501501581 d:\git\advanced-tools\glew-2.1.0\include\gl\glew.h
 	<stddef.h>
 	<inttypes.h>
 	<stdint.h>
@@ -810,13 +813,13 @@
 	<OpenGL/glu.h>
 	<GL/glu.h>
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_opengl.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_opengl.h
 	"SDL_config.h"
 	"gl_mangle.h"
 	<windows.h>
 	"SDL_opengl_glext.h"
 
-1641849092 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_opengl_glext.h
+1641852692 d:\git\advanced-tools\x86_64-w64-mingw32\include\sdl2\sdl_opengl_glext.h
 	<windows.h>
 	<stddef.h>
 	<inttypes.h>
@@ -826,7 +829,7 @@
 	<stdint.h>
 	<inttypes.h>
 
-1554369868 source:d:\git\advanced-tools\glm\glm\detail\glm.cpp
+1554373468 source:d:\git\advanced-tools\glm\glm\detail\glm.cpp
 	<glm/gtx/dual_quaternion.hpp>
 	<glm/gtc/vec1.hpp>
 	<glm/gtc/quaternion.hpp>
@@ -834,13 +837,13 @@
 	<glm/ext/scalar_uint_sized.hpp>
 	<glm/glm.hpp>
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\dual_quaternion.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\dual_quaternion.hpp
 	"../glm.hpp"
 	"../gtc/constants.hpp"
 	"../gtc/quaternion.hpp"
 	"dual_quaternion.inl"
 
-1537173151 d:\git\advanced-tools\glm\glm\glm.hpp
+1537176751 d:\git\advanced-tools\glm\glm\glm.hpp
 	"detail/_fixes.hpp"
 	"detail/setup.hpp"
 	<cmath>
@@ -870,10 +873,10 @@
 	"vector_relational.hpp"
 	"integer.hpp"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\_fixes.hpp
+1535531570 d:\git\advanced-tools\glm\glm\detail\_fixes.hpp
 	<cmath>
 
-1585554429 d:\git\advanced-tools\glm\glm\detail\setup.hpp
+1585558029 d:\git\advanced-tools\glm\glm\detail\setup.hpp
 	<cassert>
 	<cstddef>
 	"../simd/platform.h"
@@ -882,7 +885,7 @@
 	<cstdint>
 	<type_traits>
 
-1574087505 d:\git\advanced-tools\glm\glm\simd\platform.h
+1574091105 d:\git\advanced-tools\glm\glm\simd\platform.h
 	<cuda.h>
 	<immintrin.h>
 	<immintrin.h>
@@ -894,16 +897,16 @@
 	<emmintrin.h>
 	"neon.h"
 
-1574087505 d:\git\advanced-tools\glm\glm\simd\neon.h
+1574091105 d:\git\advanced-tools\glm\glm\simd\neon.h
 	<arm_neon.h>
 
-1586696336 d:\git\advanced-tools\glm\glm\fwd.hpp
+1586699936 d:\git\advanced-tools\glm\glm\fwd.hpp
 	"detail/qualifier.hpp"
 
-1574087505 d:\git\advanced-tools\glm\glm\detail\qualifier.hpp
+1574091105 d:\git\advanced-tools\glm\glm\detail\qualifier.hpp
 	"setup.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\vec2.hpp
+1586699936 d:\git\advanced-tools\glm\glm\vec2.hpp
 	"./ext/vector_bool2.hpp"
 	"./ext/vector_bool2_precision.hpp"
 	"./ext/vector_float2.hpp"
@@ -915,63 +918,63 @@
 	"./ext/vector_uint2.hpp"
 	"./ext/vector_uint2_sized.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_bool2.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_bool2.hpp
 	"../detail/type_vec2.hpp"
 
-1540992241 d:\git\advanced-tools\glm\glm\detail\type_vec2.hpp
+1540995841 d:\git\advanced-tools\glm\glm\detail\type_vec2.hpp
 	"qualifier.hpp"
 	"_swizzle.hpp"
 	"_swizzle_func.hpp"
 	<cstddef>
 	"type_vec2.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\_swizzle.hpp
+1535531570 d:\git\advanced-tools\glm\glm\detail\_swizzle.hpp
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\_swizzle_func.hpp
+1535531570 d:\git\advanced-tools\glm\glm\detail\_swizzle_func.hpp
 
-1540992241 d:\git\advanced-tools\glm\glm\detail\type_vec2.inl
+1540995841 d:\git\advanced-tools\glm\glm\detail\type_vec2.inl
 	"./compute_vector_relational.hpp"
 
-1533815221 d:\git\advanced-tools\glm\glm\detail\compute_vector_relational.hpp
+1533818821 d:\git\advanced-tools\glm\glm\detail\compute_vector_relational.hpp
 	"setup.hpp"
 	<limits>
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_bool2_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_bool2_precision.hpp
 	"../detail/type_vec2.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_float2.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_float2.hpp
 	"../detail/type_vec2.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_float2_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_float2_precision.hpp
 	"../detail/type_vec2.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_double2.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_double2.hpp
 	"../detail/type_vec2.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_double2_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_double2_precision.hpp
 	"../detail/type_vec2.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_int2.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_int2.hpp
 	"../detail/type_vec2.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\vector_int2_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\vector_int2_sized.hpp
 	"../ext/vector_int2.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1554369868 d:\git\advanced-tools\glm\glm\ext\scalar_int_sized.hpp
+1554373468 d:\git\advanced-tools\glm\glm\ext\scalar_int_sized.hpp
 	"../detail/setup.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_uint2.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_uint2.hpp
 	"../detail/type_vec2.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\vector_uint2_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\vector_uint2_sized.hpp
 	"../ext/vector_uint2.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\scalar_uint_sized.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\scalar_uint_sized.hpp
 	"../detail/setup.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\vec3.hpp
+1586699936 d:\git\advanced-tools\glm\glm\vec3.hpp
 	"./ext/vector_bool3.hpp"
 	"./ext/vector_bool3_precision.hpp"
 	"./ext/vector_float3.hpp"
@@ -983,49 +986,49 @@
 	"./ext/vector_uint3.hpp"
 	"./ext/vector_uint3_sized.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_bool3.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_bool3.hpp
 	"../detail/type_vec3.hpp"
 
-1540992241 d:\git\advanced-tools\glm\glm\detail\type_vec3.hpp
+1540995841 d:\git\advanced-tools\glm\glm\detail\type_vec3.hpp
 	"qualifier.hpp"
 	"_swizzle.hpp"
 	"_swizzle_func.hpp"
 	<cstddef>
 	"type_vec3.inl"
 
-1540992241 d:\git\advanced-tools\glm\glm\detail\type_vec3.inl
+1540995841 d:\git\advanced-tools\glm\glm\detail\type_vec3.inl
 	"compute_vector_relational.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_bool3_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_bool3_precision.hpp
 	"../detail/type_vec3.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_float3.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_float3.hpp
 	"../detail/type_vec3.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_float3_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_float3_precision.hpp
 	"../detail/type_vec3.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_double3.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_double3.hpp
 	"../detail/type_vec3.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_double3_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_double3_precision.hpp
 	"../detail/type_vec3.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_int3.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_int3.hpp
 	"../detail/type_vec3.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\vector_int3_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\vector_int3_sized.hpp
 	"../ext/vector_int3.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_uint3.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_uint3.hpp
 	"../detail/type_vec3.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\vector_uint3_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\vector_uint3_sized.hpp
 	"../ext/vector_uint3.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\vec4.hpp
+1586699936 d:\git\advanced-tools\glm\glm\vec4.hpp
 	"./ext/vector_bool4.hpp"
 	"./ext/vector_bool4_precision.hpp"
 	"./ext/vector_float4.hpp"
@@ -1037,71 +1040,71 @@
 	"./ext/vector_uint4.hpp"
 	"./ext/vector_uint4_sized.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_bool4.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_bool4.hpp
 	"../detail/type_vec4.hpp"
 
-1574087505 d:\git\advanced-tools\glm\glm\detail\type_vec4.hpp
+1574091105 d:\git\advanced-tools\glm\glm\detail\type_vec4.hpp
 	"qualifier.hpp"
 	"_swizzle.hpp"
 	"_swizzle_func.hpp"
 	<cstddef>
 	"type_vec4.inl"
 
-1540992241 d:\git\advanced-tools\glm\glm\detail\type_vec4.inl
+1540995841 d:\git\advanced-tools\glm\glm\detail\type_vec4.inl
 	"compute_vector_relational.hpp"
 	"type_vec4_simd.inl"
 
-1575896614 d:\git\advanced-tools\glm\glm\detail\type_vec4_simd.inl
+1575900214 d:\git\advanced-tools\glm\glm\detail\type_vec4_simd.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_bool4_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_bool4_precision.hpp
 	"../detail/type_vec4.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_float4.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_float4.hpp
 	"../detail/type_vec4.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_float4_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_float4_precision.hpp
 	"../detail/type_vec4.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_double4.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_double4.hpp
 	"../detail/type_vec4.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_double4_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_double4_precision.hpp
 	"../detail/setup.hpp"
 	"../detail/type_vec4.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_int4.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_int4.hpp
 	"../detail/type_vec4.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\vector_int4_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\vector_int4_sized.hpp
 	"../ext/vector_int4.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_uint4.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_uint4.hpp
 	"../detail/type_vec4.hpp"
 
-1586696635 d:\git\advanced-tools\glm\glm\ext\vector_uint4_sized.hpp
+1586700235 d:\git\advanced-tools\glm\glm\ext\vector_uint4_sized.hpp
 	"../ext/vector_uint4.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\mat2x2.hpp
+1533818822 d:\git\advanced-tools\glm\glm\mat2x2.hpp
 	"./ext/matrix_double2x2.hpp"
 	"./ext/matrix_double2x2_precision.hpp"
 	"./ext/matrix_float2x2.hpp"
 	"./ext/matrix_float2x2_precision.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double2x2.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double2x2.hpp
 	"../detail/type_mat2x2.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\detail\type_mat2x2.hpp
+1533818822 d:\git\advanced-tools\glm\glm\detail\type_mat2x2.hpp
 	"type_vec2.hpp"
 	<limits>
 	<cstddef>
 	"type_mat2x2.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\type_mat2x2.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\type_mat2x2.inl
 	"../matrix.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\matrix.hpp
+1537176751 d:\git\advanced-tools\glm\glm\matrix.hpp
 	"detail/qualifier.hpp"
 	"detail/setup.hpp"
 	"vec2.hpp"
@@ -1118,240 +1121,240 @@
 	"mat4x4.hpp"
 	"detail/func_matrix.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\mat2x3.hpp
+1533818822 d:\git\advanced-tools\glm\glm\mat2x3.hpp
 	"./ext/matrix_double2x3.hpp"
 	"./ext/matrix_double2x3_precision.hpp"
 	"./ext/matrix_float2x3.hpp"
 	"./ext/matrix_float2x3_precision.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double2x3.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double2x3.hpp
 	"../detail/type_mat2x3.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\detail\type_mat2x3.hpp
+1533818822 d:\git\advanced-tools\glm\glm\detail\type_mat2x3.hpp
 	"type_vec2.hpp"
 	"type_vec3.hpp"
 	<limits>
 	<cstddef>
 	"type_mat2x3.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\type_mat2x3.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\type_mat2x3.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double2x3_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double2x3_precision.hpp
 	"../detail/type_mat2x3.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float2x3.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float2x3.hpp
 	"../detail/type_mat2x3.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float2x3_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float2x3_precision.hpp
 	"../detail/type_mat2x3.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\mat2x4.hpp
+1533818822 d:\git\advanced-tools\glm\glm\mat2x4.hpp
 	"./ext/matrix_double2x4.hpp"
 	"./ext/matrix_double2x4_precision.hpp"
 	"./ext/matrix_float2x4.hpp"
 	"./ext/matrix_float2x4_precision.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double2x4.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double2x4.hpp
 	"../detail/type_mat2x4.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\detail\type_mat2x4.hpp
+1533818822 d:\git\advanced-tools\glm\glm\detail\type_mat2x4.hpp
 	"type_vec2.hpp"
 	"type_vec4.hpp"
 	<limits>
 	<cstddef>
 	"type_mat2x4.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\type_mat2x4.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\type_mat2x4.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double2x4_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double2x4_precision.hpp
 	"../detail/type_mat2x4.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float2x4.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float2x4.hpp
 	"../detail/type_mat2x4.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float2x4_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float2x4_precision.hpp
 	"../detail/type_mat2x4.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\mat3x2.hpp
+1533818822 d:\git\advanced-tools\glm\glm\mat3x2.hpp
 	"./ext/matrix_double3x2.hpp"
 	"./ext/matrix_double3x2_precision.hpp"
 	"./ext/matrix_float3x2.hpp"
 	"./ext/matrix_float3x2_precision.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double3x2.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double3x2.hpp
 	"../detail/type_mat3x2.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\detail\type_mat3x2.hpp
+1533818822 d:\git\advanced-tools\glm\glm\detail\type_mat3x2.hpp
 	"type_vec2.hpp"
 	"type_vec3.hpp"
 	<limits>
 	<cstddef>
 	"type_mat3x2.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\type_mat3x2.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\type_mat3x2.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double3x2_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double3x2_precision.hpp
 	"../detail/type_mat3x2.hpp"
 
-1535527970 d:\git\advanced-tools\glm\glm\ext\matrix_float3x2.hpp
+1535531570 d:\git\advanced-tools\glm\glm\ext\matrix_float3x2.hpp
 	"../detail/type_mat3x2.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float3x2_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float3x2_precision.hpp
 	"../detail/type_mat3x2.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\mat3x3.hpp
+1533818822 d:\git\advanced-tools\glm\glm\mat3x3.hpp
 	"./ext/matrix_double3x3.hpp"
 	"./ext/matrix_double3x3_precision.hpp"
 	"./ext/matrix_float3x3.hpp"
 	"./ext/matrix_float3x3_precision.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double3x3.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double3x3.hpp
 	"../detail/type_mat3x3.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\detail\type_mat3x3.hpp
+1533818822 d:\git\advanced-tools\glm\glm\detail\type_mat3x3.hpp
 	"type_vec3.hpp"
 	<limits>
 	<cstddef>
 	"type_mat3x3.inl"
 
-1586697933 d:\git\advanced-tools\glm\glm\detail\type_mat3x3.inl
+1586701533 d:\git\advanced-tools\glm\glm\detail\type_mat3x3.inl
 	"../matrix.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double3x3_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double3x3_precision.hpp
 	"../detail/type_mat3x3.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float3x3.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float3x3.hpp
 	"../detail/type_mat3x3.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float3x3_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float3x3_precision.hpp
 	"../detail/type_mat3x3.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\mat3x4.hpp
+1533818822 d:\git\advanced-tools\glm\glm\mat3x4.hpp
 	"./ext/matrix_double3x4.hpp"
 	"./ext/matrix_double3x4_precision.hpp"
 	"./ext/matrix_float3x4.hpp"
 	"./ext/matrix_float3x4_precision.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double3x4.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double3x4.hpp
 	"../detail/type_mat3x4.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\detail\type_mat3x4.hpp
+1533818822 d:\git\advanced-tools\glm\glm\detail\type_mat3x4.hpp
 	"type_vec3.hpp"
 	"type_vec4.hpp"
 	<limits>
 	<cstddef>
 	"type_mat3x4.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\type_mat3x4.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\type_mat3x4.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double3x4_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double3x4_precision.hpp
 	"../detail/type_mat3x4.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float3x4.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float3x4.hpp
 	"../detail/type_mat3x4.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float3x4_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float3x4_precision.hpp
 	"../detail/type_mat3x4.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\mat4x2.hpp
+1533818822 d:\git\advanced-tools\glm\glm\mat4x2.hpp
 	"./ext/matrix_double4x2.hpp"
 	"./ext/matrix_double4x2_precision.hpp"
 	"./ext/matrix_float4x2.hpp"
 	"./ext/matrix_float4x2_precision.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double4x2.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double4x2.hpp
 	"../detail/type_mat4x2.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\detail\type_mat4x2.hpp
+1533818822 d:\git\advanced-tools\glm\glm\detail\type_mat4x2.hpp
 	"type_vec2.hpp"
 	"type_vec4.hpp"
 	<limits>
 	<cstddef>
 	"type_mat4x2.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\type_mat4x2.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\type_mat4x2.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double4x2_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double4x2_precision.hpp
 	"../detail/type_mat4x2.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float4x2.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float4x2.hpp
 	"../detail/type_mat4x2.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float4x2_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float4x2_precision.hpp
 	"../detail/type_mat2x2.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\mat4x3.hpp
+1533818822 d:\git\advanced-tools\glm\glm\mat4x3.hpp
 	"./ext/matrix_double4x3.hpp"
 	"./ext/matrix_double4x3_precision.hpp"
 	"./ext/matrix_float4x3.hpp"
 	"./ext/matrix_float4x3_precision.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double4x3.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double4x3.hpp
 	"../detail/type_mat4x3.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\detail\type_mat4x3.hpp
+1533818822 d:\git\advanced-tools\glm\glm\detail\type_mat4x3.hpp
 	"type_vec3.hpp"
 	"type_vec4.hpp"
 	<limits>
 	<cstddef>
 	"type_mat4x3.inl"
 
-1554369868 d:\git\advanced-tools\glm\glm\detail\type_mat4x3.inl
+1554373468 d:\git\advanced-tools\glm\glm\detail\type_mat4x3.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double4x3_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double4x3_precision.hpp
 	"../detail/type_mat4x3.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float4x3.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float4x3.hpp
 	"../detail/type_mat4x3.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float4x3_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float4x3_precision.hpp
 	"../detail/type_mat4x3.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\mat4x4.hpp
+1533818822 d:\git\advanced-tools\glm\glm\mat4x4.hpp
 	"./ext/matrix_double4x4.hpp"
 	"./ext/matrix_double4x4_precision.hpp"
 	"./ext/matrix_float4x4.hpp"
 	"./ext/matrix_float4x4_precision.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double4x4.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double4x4.hpp
 	"../detail/type_mat4x4.hpp"
 
-1533815222 d:\git\advanced-tools\glm\glm\detail\type_mat4x4.hpp
+1533818822 d:\git\advanced-tools\glm\glm\detail\type_mat4x4.hpp
 	"type_vec4.hpp"
 	<limits>
 	<cstddef>
 	"type_mat4x4.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\type_mat4x4.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\type_mat4x4.inl
 	"../matrix.hpp"
 	"type_mat4x4_simd.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\detail\type_mat4x4_simd.inl
+1533818822 d:\git\advanced-tools\glm\glm\detail\type_mat4x4_simd.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double4x4_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double4x4_precision.hpp
 	"../detail/type_mat4x4.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float4x4.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float4x4.hpp
 	"../detail/type_mat4x4.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float4x4_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float4x4_precision.hpp
 	"../detail/type_mat4x4.hpp"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\func_matrix.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\func_matrix.inl
 	"../geometric.hpp"
 	<limits>
 	"func_matrix_simd.inl"
 
-1537173151 d:\git\advanced-tools\glm\glm\geometric.hpp
+1537176751 d:\git\advanced-tools\glm\glm\geometric.hpp
 	"detail/type_vec3.hpp"
 	"detail/func_geometric.inl"
 
-1537173151 d:\git\advanced-tools\glm\glm\detail\func_geometric.inl
+1537176751 d:\git\advanced-tools\glm\glm\detail\func_geometric.inl
 	"../exponential.hpp"
 	"../common.hpp"
 	"func_geometric_simd.inl"
 
-1537173151 d:\git\advanced-tools\glm\glm\exponential.hpp
+1537176751 d:\git\advanced-tools\glm\glm\exponential.hpp
 	"detail/type_vec1.hpp"
 	"detail/type_vec2.hpp"
 	"detail/type_vec3.hpp"
@@ -1359,17 +1362,17 @@
 	<cmath>
 	"detail/func_exponential.inl"
 
-1540992241 d:\git\advanced-tools\glm\glm\detail\type_vec1.hpp
+1540995841 d:\git\advanced-tools\glm\glm\detail\type_vec1.hpp
 	"qualifier.hpp"
 	"_swizzle.hpp"
 	"_swizzle_func.hpp"
 	<cstddef>
 	"type_vec1.inl"
 
-1586698403 d:\git\advanced-tools\glm\glm\detail\type_vec1.inl
+1586702003 d:\git\advanced-tools\glm\glm\detail\type_vec1.inl
 	"./compute_vector_relational.hpp"
 
-1533815221 d:\git\advanced-tools\glm\glm\detail\func_exponential.inl
+1533818821 d:\git\advanced-tools\glm\glm\detail\func_exponential.inl
 	"../vector_relational.hpp"
 	"_vectorize.hpp"
 	<limits>
@@ -1377,30 +1380,30 @@
 	<cassert>
 	"func_exponential_simd.inl"
 
-1537173151 d:\git\advanced-tools\glm\glm\vector_relational.hpp
+1537176751 d:\git\advanced-tools\glm\glm\vector_relational.hpp
 	"detail/qualifier.hpp"
 	"detail/setup.hpp"
 	"detail/func_vector_relational.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\func_vector_relational.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\func_vector_relational.inl
 	"func_vector_relational_simd.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\func_vector_relational_simd.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\func_vector_relational_simd.inl
 
-1574087505 d:\git\advanced-tools\glm\glm\detail\_vectorize.hpp
+1574091105 d:\git\advanced-tools\glm\glm\detail\_vectorize.hpp
 
-1533815221 d:\git\advanced-tools\glm\glm\detail\func_exponential_simd.inl
+1533818821 d:\git\advanced-tools\glm\glm\detail\func_exponential_simd.inl
 	"../simd/exponential.h"
 
-1531728368 d:\git\advanced-tools\glm\glm\simd\exponential.h
+1531731968 d:\git\advanced-tools\glm\glm\simd\exponential.h
 	"platform.h"
 
-1556281466 d:\git\advanced-tools\glm\glm\common.hpp
+1556285066 d:\git\advanced-tools\glm\glm\common.hpp
 	"detail/qualifier.hpp"
 	"detail/_fixes.hpp"
 	"detail/func_common.inl"
 
-1575896614 d:\git\advanced-tools\glm\glm\detail\func_common.inl
+1575900214 d:\git\advanced-tools\glm\glm\detail\func_common.inl
 	"../vector_relational.hpp"
 	"compute_common.hpp"
 	"type_vec1.hpp"
@@ -1411,104 +1414,104 @@
 	<limits>
 	"func_common_simd.inl"
 
-1537173151 d:\git\advanced-tools\glm\glm\detail\compute_common.hpp
+1537176751 d:\git\advanced-tools\glm\glm\detail\compute_common.hpp
 	"setup.hpp"
 	<limits>
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\func_common_simd.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\func_common_simd.inl
 	"../simd/common.h"
 	<immintrin.h>
 
-1554369868 d:\git\advanced-tools\glm\glm\simd\common.h
+1554373468 d:\git\advanced-tools\glm\glm\simd\common.h
 	"platform.h"
 
-1585554429 d:\git\advanced-tools\glm\glm\detail\func_geometric_simd.inl
+1585558029 d:\git\advanced-tools\glm\glm\detail\func_geometric_simd.inl
 	"../simd/geometric.h"
 
-1525692182 d:\git\advanced-tools\glm\glm\simd\geometric.h
+1525695782 d:\git\advanced-tools\glm\glm\simd\geometric.h
 	"common.h"
 
-1574087505 d:\git\advanced-tools\glm\glm\detail\func_matrix_simd.inl
+1574091105 d:\git\advanced-tools\glm\glm\detail\func_matrix_simd.inl
 	"type_mat4x4.hpp"
 	"../geometric.hpp"
 	"../simd/matrix.h"
 	<cstring>
 
-1525692182 d:\git\advanced-tools\glm\glm\simd\matrix.h
+1525695782 d:\git\advanced-tools\glm\glm\simd\matrix.h
 	"geometric.h"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_double2x2_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_double2x2_precision.hpp
 	"../detail/type_mat2x2.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float2x2.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float2x2.hpp
 	"../detail/type_mat2x2.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_float2x2_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_float2x2_precision.hpp
 	"../detail/type_mat2x2.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\trigonometric.hpp
+1537176751 d:\git\advanced-tools\glm\glm\trigonometric.hpp
 	"detail/setup.hpp"
 	"detail/qualifier.hpp"
 	"detail/func_trigonometric.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\func_trigonometric.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\func_trigonometric.inl
 	"_vectorize.hpp"
 	<cmath>
 	<limits>
 	"func_trigonometric_simd.inl"
 
-1464681861 d:\git\advanced-tools\glm\glm\detail\func_trigonometric_simd.inl
+1464685461 d:\git\advanced-tools\glm\glm\detail\func_trigonometric_simd.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\packing.hpp
+1537176751 d:\git\advanced-tools\glm\glm\packing.hpp
 	"./ext/vector_uint2.hpp"
 	"./ext/vector_float2.hpp"
 	"./ext/vector_float4.hpp"
 	"detail/func_packing.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\func_packing.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\func_packing.inl
 	"../common.hpp"
 	"type_half.hpp"
 	"func_packing_simd.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\type_half.hpp
+1535531570 d:\git\advanced-tools\glm\glm\detail\type_half.hpp
 	"setup.hpp"
 	"type_half.inl"
 
-1554369868 d:\git\advanced-tools\glm\glm\detail\type_half.inl
+1554373468 d:\git\advanced-tools\glm\glm\detail\type_half.inl
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\func_packing_simd.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\func_packing_simd.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\integer.hpp
+1537176751 d:\git\advanced-tools\glm\glm\integer.hpp
 	"detail/qualifier.hpp"
 	"common.hpp"
 	"vector_relational.hpp"
 	"detail/func_integer.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\detail\func_integer.inl
+1574091105 d:\git\advanced-tools\glm\glm\detail\func_integer.inl
 	"_vectorize.hpp"
 	<intrin.h>
 	<limits>
 	"func_integer_simd.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\func_integer_simd.inl
+1535531570 d:\git\advanced-tools\glm\glm\detail\func_integer_simd.inl
 	"../simd/integer.h"
 
-1525692182 d:\git\advanced-tools\glm\glm\simd\integer.h
+1525695782 d:\git\advanced-tools\glm\glm\simd\integer.h
 
-1535527970 d:\git\advanced-tools\glm\glm\gtc\constants.hpp
+1535531570 d:\git\advanced-tools\glm\glm\gtc\constants.hpp
 	"../ext/scalar_constants.hpp"
 	"constants.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_constants.hpp
+1574091105 d:\git\advanced-tools\glm\glm\ext\scalar_constants.hpp
 	"../detail/setup.hpp"
 	"scalar_constants.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_constants.inl
+1574091105 d:\git\advanced-tools\glm\glm\ext\scalar_constants.inl
 	<limits>
 
-1574087505 d:\git\advanced-tools\glm\glm\gtc\constants.inl
+1574091105 d:\git\advanced-tools\glm\glm\gtc\constants.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\gtc\quaternion.hpp
+1537176751 d:\git\advanced-tools\glm\glm\gtc\quaternion.hpp
 	"../gtc/constants.hpp"
 	"../gtc/matrix_transform.hpp"
 	"../ext/vector_relational.hpp"
@@ -1527,7 +1530,7 @@
 	"../detail/type_vec4.hpp"
 	"quaternion.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\gtc\matrix_transform.hpp
+1535531570 d:\git\advanced-tools\glm\glm\gtc\matrix_transform.hpp
 	"../mat4x4.hpp"
 	"../vec2.hpp"
 	"../vec3.hpp"
@@ -1537,51 +1540,51 @@
 	"../ext/matrix_transform.hpp"
 	"matrix_transform.inl"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_projection.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_projection.hpp
 	"../gtc/constants.hpp"
 	"../geometric.hpp"
 	"../trigonometric.hpp"
 	"../matrix.hpp"
 	"matrix_projection.inl"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_projection.inl
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_projection.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_clip_space.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_clip_space.hpp
 	"../ext/scalar_constants.hpp"
 	"../geometric.hpp"
 	"../trigonometric.hpp"
 	"matrix_clip_space.inl"
 
-1585554429 d:\git\advanced-tools\glm\glm\ext\matrix_clip_space.inl
+1585558029 d:\git\advanced-tools\glm\glm\ext\matrix_clip_space.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\matrix_transform.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\matrix_transform.hpp
 	"../gtc/constants.hpp"
 	"../geometric.hpp"
 	"../trigonometric.hpp"
 	"../matrix.hpp"
 	"matrix_transform.inl"
 
-1554369868 d:\git\advanced-tools\glm\glm\ext\matrix_transform.inl
+1554373468 d:\git\advanced-tools\glm\glm\ext\matrix_transform.inl
 
-1535527970 d:\git\advanced-tools\glm\glm\gtc\matrix_transform.inl
+1535531570 d:\git\advanced-tools\glm\glm\gtc\matrix_transform.inl
 	"../geometric.hpp"
 	"../trigonometric.hpp"
 	"../matrix.hpp"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\vector_relational.hpp
+1574091105 d:\git\advanced-tools\glm\glm\ext\vector_relational.hpp
 	"../detail/qualifier.hpp"
 	"vector_relational.inl"
 
-1540992241 d:\git\advanced-tools\glm\glm\ext\vector_relational.inl
+1540995841 d:\git\advanced-tools\glm\glm\ext\vector_relational.inl
 	"../vector_relational.hpp"
 	"../common.hpp"
 	"../detail/qualifier.hpp"
 	"../detail/type_float.hpp"
 
-1540992241 d:\git\advanced-tools\glm\glm\detail\type_float.hpp
+1540995841 d:\git\advanced-tools\glm\glm\detail\type_float.hpp
 	"setup.hpp"
 
-1585554429 d:\git\advanced-tools\glm\glm\ext\quaternion_common.hpp
+1585558029 d:\git\advanced-tools\glm\glm\ext\quaternion_common.hpp
 	"../ext/scalar_constants.hpp"
 	"../ext/quaternion_geometric.hpp"
 	"../common.hpp"
@@ -1590,23 +1593,23 @@
 	<limits>
 	"quaternion_common.inl"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\quaternion_geometric.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\quaternion_geometric.hpp
 	"../geometric.hpp"
 	"../exponential.hpp"
 	"../ext/vector_relational.hpp"
 	"quaternion_geometric.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\ext\quaternion_geometric.inl
+1535531570 d:\git\advanced-tools\glm\glm\ext\quaternion_geometric.inl
 
-1585554429 d:\git\advanced-tools\glm\glm\ext\quaternion_common.inl
+1585558029 d:\git\advanced-tools\glm\glm\ext\quaternion_common.inl
 	"quaternion_common_simd.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\ext\quaternion_common_simd.inl
+1535531570 d:\git\advanced-tools\glm\glm\ext\quaternion_common_simd.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\quaternion_float.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\quaternion_float.hpp
 	"../detail/type_quat.hpp"
 
-1585554429 d:\git\advanced-tools\glm\glm\detail\type_quat.hpp
+1585558029 d:\git\advanced-tools\glm\glm\detail\type_quat.hpp
 	"../detail/type_mat3x3.hpp"
 	"../detail/type_mat4x4.hpp"
 	"../detail/type_vec3.hpp"
@@ -1617,31 +1620,31 @@
 	"../gtc/matrix_transform.hpp"
 	"type_quat.inl"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\quaternion_relational.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\quaternion_relational.hpp
 	"../vector_relational.hpp"
 	"quaternion_relational.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\ext\quaternion_relational.inl
+1535531570 d:\git\advanced-tools\glm\glm\ext\quaternion_relational.inl
 
-1585554429 d:\git\advanced-tools\glm\glm\detail\type_quat.inl
+1585558029 d:\git\advanced-tools\glm\glm\detail\type_quat.inl
 	"../trigonometric.hpp"
 	"../exponential.hpp"
 	"../ext/quaternion_geometric.hpp"
 	<limits>
 	"type_quat_simd.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\detail\type_quat_simd.inl
+1533818822 d:\git\advanced-tools\glm\glm\detail\type_quat_simd.inl
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\quaternion_float_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\quaternion_float_precision.hpp
 	"../detail/type_quat.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\quaternion_double.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\quaternion_double.hpp
 	"../detail/type_quat.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\quaternion_double_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\quaternion_double_precision.hpp
 	"../detail/type_quat.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\quaternion_trigonometric.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\quaternion_trigonometric.hpp
 	"../trigonometric.hpp"
 	"../exponential.hpp"
 	"scalar_constants.hpp"
@@ -1649,18 +1652,18 @@
 	<limits>
 	"quaternion_trigonometric.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\quaternion_trigonometric.inl
+1574091105 d:\git\advanced-tools\glm\glm\ext\quaternion_trigonometric.inl
 	"scalar_constants.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\quaternion_transform.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\quaternion_transform.hpp
 	"../common.hpp"
 	"../trigonometric.hpp"
 	"../geometric.hpp"
 	"quaternion_transform.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\ext\quaternion_transform.inl
+1535531570 d:\git\advanced-tools\glm\glm\ext\quaternion_transform.inl
 
-1586705495 d:\git\advanced-tools\glm\glm\gtc\quaternion.inl
+1586709095 d:\git\advanced-tools\glm\glm\gtc\quaternion.inl
 	"../trigonometric.hpp"
 	"../geometric.hpp"
 	"../exponential.hpp"
@@ -1668,22 +1671,22 @@
 	<limits>
 	"quaternion_simd.inl"
 
-1531728368 d:\git\advanced-tools\glm\glm\gtc\epsilon.hpp
+1531731968 d:\git\advanced-tools\glm\glm\gtc\epsilon.hpp
 	"../detail/setup.hpp"
 	"../detail/qualifier.hpp"
 	"epsilon.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtc\epsilon.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtc\epsilon.inl
 	"../vector_relational.hpp"
 	"../common.hpp"
 
-1535527970 d:\git\advanced-tools\glm\glm\gtc\quaternion_simd.inl
+1535531570 d:\git\advanced-tools\glm\glm\gtc\quaternion_simd.inl
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\dual_quaternion.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\dual_quaternion.inl
 	"../geometric.hpp"
 	<limits>
 
-1586696336 d:\git\advanced-tools\glm\glm\gtc\vec1.hpp
+1586699936 d:\git\advanced-tools\glm\glm\gtc\vec1.hpp
 	"../ext/vector_bool1.hpp"
 	"../ext/vector_bool1_precision.hpp"
 	"../ext/vector_float1.hpp"
@@ -1695,58 +1698,62 @@
 	"../ext/vector_uint1.hpp"
 	"../ext/vector_uint1_sized.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_bool1.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_bool1.hpp
 	"../detail/type_vec1.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_bool1_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_bool1_precision.hpp
 	"../detail/type_vec1.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_float1.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_float1.hpp
 	"../detail/type_vec1.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_float1_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_float1_precision.hpp
 	"../detail/type_vec1.hpp"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\vector_double1.hpp
+1574091105 d:\git\advanced-tools\glm\glm\ext\vector_double1.hpp
 	"../detail/type_vec1.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_double1_precision.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_double1_precision.hpp
 	"../detail/type_vec1.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_int1.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_int1.hpp
 	"../detail/type_vec1.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\vector_int1_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\vector_int1_sized.hpp
 	"../ext/vector_int1.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\vector_uint1.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\vector_uint1.hpp
 	"../detail/type_vec1.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\vector_uint1_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\vector_uint1_sized.hpp
 	"../ext/vector_uint1.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1644917759 source:d:\git\advanced-tools\advancedtools\src\world.cpp
+1644921359 source:d:\git\advanced-tools\advancedtools\src\world.cpp
 	"World.h"
 	"Gameobject.h"
 	"Gameobject.h"
 
-1644916971 d:\git\advanced-tools\advancedtools\include\world.h
+1644920571 d:\git\advanced-tools\advancedtools\include\world.h
 	"Gameobject.h"
 
-1644631043 source:d:\git\advanced-tools\advancedtools\src\boxcolider.cpp
+1650083954 source:d:\git\advanced-tools\advancedtools\src\boxcolider.cpp
 	"BoxColider.h"
+	<stdio.h>
+	<iostream>
 
-1644631042 d:\git\advanced-tools\advancedtools\include\boxcolider.h
+1650083610 d:\git\advanced-tools\advancedtools\include\boxcolider.h
+	"Colider.h"
+	"Gameobject.h"
+	<glm/glm.hpp>
 
-1644641855 source:d:\git\advanced-tools\advancedtools\src\colider.cpp
+1650081841 source:d:\git\advanced-tools\advancedtools\src\colider.cpp
 	"Colider.h"
 	"Gameobject.h"
 
-1644641880 d:\git\advanced-tools\advancedtools\include\colider.h
+1650081882 d:\git\advanced-tools\advancedtools\include\colider.h
 	<glm/glm.hpp>
-	"BoxColider.h"
 	"Gameobject.h"
 
 1644642186 source:c:\users\jacob\advanced-tools\glm\glm\detail\glm.cpp
@@ -3110,12 +3117,12 @@
 	"Renderer.h"
 	"world.h"
 
-1645222336 d:\git\advanced-tools\advancedtools\include\renderer.h
+1645225936 d:\git\advanced-tools\advancedtools\include\renderer.h
 	"World.h"
 	<SDL.h>
 	<glew.h>
 
-1645581978 source:d:\git\advanced-tools\advancedtools\src\renderer.cpp
+1647063839 source:d:\git\advanced-tools\advancedtools\src\renderer.cpp
 	"Renderer.h"
 	<SDL.h>
 	<SDL_opengl.h>
@@ -3123,7 +3130,7 @@
 	"Camera.h"
 	"glm/ext.hpp"
 
-1645581770 source:d:\git\advanced-tools\advancedtools\src\camera.cpp
+1645585370 source:d:\git\advanced-tools\advancedtools\src\camera.cpp
 	"Camera.h"
 	"Gameobject.h"
 	<string>
@@ -3132,30 +3139,30 @@
 	"glm/gtx/string_cast.hpp"
 	"glm/gtx/rotate_vector.hpp"
 
-1645578150 d:\git\advanced-tools\advancedtools\include\camera.h
+1645581750 d:\git\advanced-tools\advancedtools\include\camera.h
 	<glm/glm.hpp>
 	"Gameobject.h"
 
-1644920848 source:d:\git\advanced-tools\advancedtools\src\movingshape.cpp
+1644924448 source:d:\git\advanced-tools\advancedtools\src\movingshape.cpp
 	"MovingShape.h"
 	"Gameobject.h"
 	<iostream>
 	<math.h>
 
-1644918195 d:\git\advanced-tools\advancedtools\include\movingshape.h
+1644921795 d:\git\advanced-tools\advancedtools\include\movingshape.h
 	"Gameobject.h"
 
-1645493229 d:\git\advanced-tools\advancedtools\include\cube.h
+1645496829 d:\git\advanced-tools\advancedtools\include\cube.h
 	<string>
 	"Gameobject.h"
 	<glm/glm.hpp>
 
-1645581480 source:d:\git\advanced-tools\advancedtools\src\cube.cpp
+1645585080 source:d:\git\advanced-tools\advancedtools\src\cube.cpp
 	"Cube.h"
 	<iostream>
 	<vector>
 
-1586696336 d:\git\advanced-tools\glm\glm\ext.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext.hpp
 	"detail/setup.hpp"
 	"glm.hpp"
 	"./ext/matrix_clip_space.hpp"
@@ -3369,165 +3376,165 @@
 	"./gtx/scalar_multiplication.hpp"
 	"./gtx/range.hpp"
 
-1554369868 d:\git\advanced-tools\glm\glm\ext\matrix_common.hpp
+1554373468 d:\git\advanced-tools\glm\glm\ext\matrix_common.hpp
 	"../detail/qualifier.hpp"
 	"../detail/_fixes.hpp"
 	"matrix_common.inl"
 
-1554369868 d:\git\advanced-tools\glm\glm\ext\matrix_common.inl
+1554373468 d:\git\advanced-tools\glm\glm\ext\matrix_common.inl
 	"../matrix.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x2.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int2x2.hpp
 	"../mat2x2.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x2_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int2x2_sized.hpp
 	"../mat2x2.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x3.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int2x3.hpp
 	"../mat2x3.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x3_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int2x3_sized.hpp
 	"../mat2x3.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x4.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int2x4.hpp
 	"../mat2x4.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int2x4_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int2x4_sized.hpp
 	"../mat2x4.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x2.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int3x2.hpp
 	"../mat3x2.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x2_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int3x2_sized.hpp
 	"../mat3x2.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x3.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int3x3.hpp
 	"../mat3x3.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x3_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int3x3_sized.hpp
 	"../mat3x3.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x4.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int3x4.hpp
 	"../mat3x4.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int3x4_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int3x4_sized.hpp
 	"../mat3x4.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x2.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int4x2.hpp
 	"../mat4x2.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x2_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int4x2_sized.hpp
 	"../mat4x2.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x3.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int4x3.hpp
 	"../mat4x3.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x3_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int4x3_sized.hpp
 	"../mat4x3.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x4.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int4x4.hpp
 	"../mat4x4.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_int4x4_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_int4x4_sized.hpp
 	"../mat4x4.hpp"
 	"../ext/scalar_int_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x2.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x2.hpp
 	"../mat2x2.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x2_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x2_sized.hpp
 	"../mat2x2.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x3.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x3.hpp
 	"../mat2x3.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x3_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x3_sized.hpp
 	"../mat2x3.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x4.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x4.hpp
 	"../mat2x4.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x4_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint2x4_sized.hpp
 	"../mat2x4.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x2.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x2.hpp
 	"../mat3x2.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x2_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x2_sized.hpp
 	"../mat3x2.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x3.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x3.hpp
 	"../mat3x3.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x3_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x3_sized.hpp
 	"../mat3x3.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x4.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x4.hpp
 	"../mat3x4.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x4_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint3x4_sized.hpp
 	"../mat3x4.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x2.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x2.hpp
 	"../mat4x2.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x2_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x2_sized.hpp
 	"../mat4x2.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x3.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x3.hpp
 	"../mat4x3.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x3_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x3_sized.hpp
 	"../mat4x3.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x4.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x4.hpp
 	"../mat4x4.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x4_sized.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\matrix_uint4x4_sized.hpp
 	"../mat4x4.hpp"
 	"../ext/scalar_uint_sized.hpp"
 
-1540992241 d:\git\advanced-tools\glm\glm\ext\matrix_relational.hpp
+1540995841 d:\git\advanced-tools\glm\glm\ext\matrix_relational.hpp
 	"../detail/qualifier.hpp"
 	"matrix_relational.inl"
 
-1540992241 d:\git\advanced-tools\glm\glm\ext\matrix_relational.inl
+1540995841 d:\git\advanced-tools\glm\glm\ext\matrix_relational.inl
 	"../ext/vector_relational.hpp"
 	"../common.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\ext\quaternion_exponential.hpp
+1537176751 d:\git\advanced-tools\glm\glm\ext\quaternion_exponential.hpp
 	"../common.hpp"
 	"../trigonometric.hpp"
 	"../geometric.hpp"
 	"../ext/scalar_constants.hpp"
 	"quaternion_exponential.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\quaternion_exponential.inl
+1574091105 d:\git\advanced-tools\glm\glm\ext\quaternion_exponential.inl
 	"scalar_constants.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\scalar_common.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\scalar_common.hpp
 	"../common.hpp"
 	"scalar_common.inl"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\scalar_common.inl
+1586699936 d:\git\advanced-tools\glm\glm\ext\scalar_common.inl
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_integer.hpp
+1574091105 d:\git\advanced-tools\glm\glm\ext\scalar_integer.hpp
 	"../detail/setup.hpp"
 	"../detail/qualifier.hpp"
 	"../detail/_vectorize.hpp"
@@ -3537,46 +3544,46 @@
 	<limits>
 	"scalar_integer.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_integer.inl
+1574091105 d:\git\advanced-tools\glm\glm\ext\scalar_integer.inl
 	"../integer.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\scalar_packing.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\scalar_packing.hpp
 	"../detail/qualifier.hpp"
 	"scalar_packing.inl"
 
-1585554429 d:\git\advanced-tools\glm\glm\ext\scalar_packing.inl
+1585558029 d:\git\advanced-tools\glm\glm\ext\scalar_packing.inl
 
-1540992241 d:\git\advanced-tools\glm\glm\ext\scalar_relational.hpp
+1540995841 d:\git\advanced-tools\glm\glm\ext\scalar_relational.hpp
 	"../detail/qualifier.hpp"
 	"scalar_relational.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_relational.inl
+1574091105 d:\git\advanced-tools\glm\glm\ext\scalar_relational.inl
 	"../common.hpp"
 	"../ext/scalar_int_sized.hpp"
 	"../ext/scalar_uint_sized.hpp"
 	"../detail/type_float.hpp"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_ulp.hpp
+1574091105 d:\git\advanced-tools\glm\glm\ext\scalar_ulp.hpp
 	"../ext/scalar_int_sized.hpp"
 	"../common.hpp"
 	"../detail/qualifier.hpp"
 	"scalar_ulp.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\scalar_ulp.inl
+1574091105 d:\git\advanced-tools\glm\glm\ext\scalar_ulp.inl
 	"../detail/type_float.hpp"
 	"../ext/scalar_constants.hpp"
 	<cmath>
 	<cfloat>
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\vector_common.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\vector_common.hpp
 	"../ext/scalar_common.hpp"
 	"../common.hpp"
 	"vector_common.inl"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\vector_common.inl
+1586699936 d:\git\advanced-tools\glm\glm\ext\vector_common.inl
 	"../detail/_vectorize.hpp"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\vector_integer.hpp
+1574091105 d:\git\advanced-tools\glm\glm\ext\vector_integer.hpp
 	"../detail/setup.hpp"
 	"../detail/qualifier.hpp"
 	"../detail/_vectorize.hpp"
@@ -3585,22 +3592,22 @@
 	<limits>
 	"vector_integer.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\vector_integer.inl
+1574091105 d:\git\advanced-tools\glm\glm\ext\vector_integer.inl
 	"scalar_integer.hpp"
 
-1586696336 d:\git\advanced-tools\glm\glm\ext\vector_packing.hpp
+1586699936 d:\git\advanced-tools\glm\glm\ext\vector_packing.hpp
 	"../detail/qualifier.hpp"
 	"vector_packing.inl"
 
-1585554429 d:\git\advanced-tools\glm\glm\ext\vector_packing.inl
+1585558029 d:\git\advanced-tools\glm\glm\ext\vector_packing.inl
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\vector_ulp.hpp
+1574091105 d:\git\advanced-tools\glm\glm\ext\vector_ulp.hpp
 	"../ext/scalar_ulp.hpp"
 	"vector_ulp.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\ext\vector_ulp.inl
+1574091105 d:\git\advanced-tools\glm\glm\ext\vector_ulp.inl
 
-1551436142 d:\git\advanced-tools\glm\glm\gtc\bitfield.hpp
+1551439742 d:\git\advanced-tools\glm\glm\gtc\bitfield.hpp
 	"../detail/setup.hpp"
 	"../ext/scalar_int_sized.hpp"
 	"../ext/scalar_uint_sized.hpp"
@@ -3610,7 +3617,7 @@
 	<limits>
 	"bitfield.inl"
 
-1586696336 d:\git\advanced-tools\glm\glm\gtc\type_precision.hpp
+1586699936 d:\git\advanced-tools\glm\glm\gtc\type_precision.hpp
 	"../gtc/quaternion.hpp"
 	"../gtc/vec1.hpp"
 	"../ext/vector_int1_sized.hpp"
@@ -3637,12 +3644,12 @@
 	"../detail/type_mat4x4.hpp"
 	"type_precision.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtc\type_precision.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtc\type_precision.inl
 
-1533815222 d:\git\advanced-tools\glm\glm\gtc\bitfield.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtc\bitfield.inl
 	"../simd/integer.h"
 
-1531728368 d:\git\advanced-tools\glm\glm\gtc\color_space.hpp
+1531731968 d:\git\advanced-tools\glm\glm\gtc\color_space.hpp
 	"../detail/setup.hpp"
 	"../detail/qualifier.hpp"
 	"../exponential.hpp"
@@ -3651,9 +3658,9 @@
 	<limits>
 	"color_space.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtc\color_space.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtc\color_space.inl
 
-1574087505 d:\git\advanced-tools\glm\glm\gtc\integer.hpp
+1574091105 d:\git\advanced-tools\glm\glm\gtc\integer.hpp
 	"../detail/setup.hpp"
 	"../detail/qualifier.hpp"
 	"../common.hpp"
@@ -3662,15 +3669,15 @@
 	<limits>
 	"integer.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtc\integer.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtc\integer.inl
 
-1531728368 d:\git\advanced-tools\glm\glm\gtc\matrix_access.hpp
+1531731968 d:\git\advanced-tools\glm\glm\gtc\matrix_access.hpp
 	"../detail/setup.hpp"
 	"matrix_access.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtc\matrix_access.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtc\matrix_access.inl
 
-1586696336 d:\git\advanced-tools\glm\glm\gtc\matrix_integer.hpp
+1586699936 d:\git\advanced-tools\glm\glm\gtc\matrix_integer.hpp
 	"../mat2x2.hpp"
 	"../mat2x3.hpp"
 	"../mat2x4.hpp"
@@ -3681,7 +3688,7 @@
 	"../mat4x3.hpp"
 	"../mat4x4.hpp"
 
-1531728368 d:\git\advanced-tools\glm\glm\gtc\matrix_inverse.hpp
+1531731968 d:\git\advanced-tools\glm\glm\gtc\matrix_inverse.hpp
 	"../detail/setup.hpp"
 	"../matrix.hpp"
 	"../mat2x2.hpp"
@@ -3689,9 +3696,9 @@
 	"../mat4x4.hpp"
 	"matrix_inverse.inl"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtc\matrix_inverse.inl
+1554373468 d:\git\advanced-tools\glm\glm\gtc\matrix_inverse.inl
 
-1531728368 d:\git\advanced-tools\glm\glm\gtc\noise.hpp
+1531731968 d:\git\advanced-tools\glm\glm\gtc\noise.hpp
 	"../detail/setup.hpp"
 	"../detail/qualifier.hpp"
 	"../detail/_noise.hpp"
@@ -3703,17 +3710,17 @@
 	"../vec4.hpp"
 	"noise.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\detail\_noise.hpp
+1535531570 d:\git\advanced-tools\glm\glm\detail\_noise.hpp
 	"../common.hpp"
 
-1540992241 d:\git\advanced-tools\glm\glm\gtc\noise.inl
+1540995841 d:\git\advanced-tools\glm\glm\gtc\noise.inl
 
-1585554429 d:\git\advanced-tools\glm\glm\gtc\packing.hpp
+1585558029 d:\git\advanced-tools\glm\glm\gtc\packing.hpp
 	"type_precision.hpp"
 	"../ext/vector_packing.hpp"
 	"packing.inl"
 
-1539072281 d:\git\advanced-tools\glm\glm\gtc\packing.inl
+1539075881 d:\git\advanced-tools\glm\glm\gtc\packing.inl
 	"../ext/scalar_relational.hpp"
 	"../ext/vector_relational.hpp"
 	"../common.hpp"
@@ -3724,13 +3731,13 @@
 	<cstring>
 	<limits>
 
-1535527970 d:\git\advanced-tools\glm\glm\gtc\random.hpp
+1535531570 d:\git\advanced-tools\glm\glm\gtc\random.hpp
 	"../ext/scalar_int_sized.hpp"
 	"../ext/scalar_uint_sized.hpp"
 	"../detail/qualifier.hpp"
 	"random.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\gtc\random.inl
+1574091105 d:\git\advanced-tools\glm\glm\gtc\random.inl
 	"../geometric.hpp"
 	"../exponential.hpp"
 	"../trigonometric.hpp"
@@ -3740,15 +3747,15 @@
 	<cassert>
 	<cmath>
 
-1531728368 d:\git\advanced-tools\glm\glm\gtc\reciprocal.hpp
+1531731968 d:\git\advanced-tools\glm\glm\gtc\reciprocal.hpp
 	"../detail/setup.hpp"
 	"reciprocal.inl"
 
-1537965165 d:\git\advanced-tools\glm\glm\gtc\reciprocal.inl
+1537968765 d:\git\advanced-tools\glm\glm\gtc\reciprocal.inl
 	"../trigonometric.hpp"
 	<limits>
 
-1574087505 d:\git\advanced-tools\glm\glm\gtc\round.hpp
+1574091105 d:\git\advanced-tools\glm\glm\gtc\round.hpp
 	"../detail/setup.hpp"
 	"../detail/qualifier.hpp"
 	"../detail/_vectorize.hpp"
@@ -3757,11 +3764,11 @@
 	<limits>
 	"round.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\gtc\round.inl
+1574091105 d:\git\advanced-tools\glm\glm\gtc\round.inl
 	"../integer.hpp"
 	"../ext/vector_integer.hpp"
 
-1537173151 d:\git\advanced-tools\glm\glm\gtc\type_ptr.hpp
+1537176751 d:\git\advanced-tools\glm\glm\gtc\type_ptr.hpp
 	"../gtc/quaternion.hpp"
 	"../gtc/vec1.hpp"
 	"../vec2.hpp"
@@ -3779,20 +3786,20 @@
 	<cstring>
 	"type_ptr.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtc\type_ptr.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtc\type_ptr.inl
 	<cstring>
 
-1574087505 d:\git\advanced-tools\glm\glm\gtc\ulp.hpp
+1574091105 d:\git\advanced-tools\glm\glm\gtc\ulp.hpp
 	"../detail/setup.hpp"
 	"../detail/qualifier.hpp"
 	"../detail/_vectorize.hpp"
 	"../ext/scalar_int_sized.hpp"
 	"ulp.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\gtc\ulp.inl
+1574091105 d:\git\advanced-tools\glm\glm\gtc\ulp.inl
 	"../ext/scalar_ulp.hpp"
 
-1540992241 d:\git\advanced-tools\glm\glm\gtc\type_aligned.hpp
+1540995841 d:\git\advanced-tools\glm\glm\gtc\type_aligned.hpp
 	"../mat4x4.hpp"
 	"../mat4x3.hpp"
 	"../mat4x2.hpp"
@@ -3807,139 +3814,139 @@
 	"../vec3.hpp"
 	"../vec4.hpp"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\associated_min_max.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\associated_min_max.hpp
 	"../glm.hpp"
 	"associated_min_max.inl"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\associated_min_max.inl
+1554373468 d:\git\advanced-tools\glm\glm\gtx\associated_min_max.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\bit.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\bit.hpp
 	"../gtc/bitfield.hpp"
 	"bit.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\bit.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\bit.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\closest_point.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\closest_point.hpp
 	"../glm.hpp"
 	"closest_point.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\closest_point.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\closest_point.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\color_encoding.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\color_encoding.hpp
 	"../detail/setup.hpp"
 	"../detail/qualifier.hpp"
 	"../vec3.hpp"
 	<limits>
 	"color_encoding.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\color_encoding.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\color_encoding.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\color_space.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\color_space.hpp
 	"../glm.hpp"
 	"color_space.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\color_space.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\color_space.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\color_space_ycocg.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\color_space_ycocg.hpp
 	"../glm.hpp"
 	"color_space_YCoCg.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\color_space_ycocg.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\color_space_ycocg.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\compatibility.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\compatibility.hpp
 	"../glm.hpp"
 	"../gtc/quaternion.hpp"
 	<cfloat>
 	<cmath>
 	"compatibility.inl"
 
-1535527970 d:\git\advanced-tools\glm\glm\gtx\compatibility.inl
+1535531570 d:\git\advanced-tools\glm\glm\gtx\compatibility.inl
 	<limits>
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\component_wise.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\component_wise.hpp
 	"../detail/setup.hpp"
 	"../detail/qualifier.hpp"
 	"component_wise.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\component_wise.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\component_wise.inl
 	<limits>
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\euler_angles.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\euler_angles.hpp
 	"../glm.hpp"
 	"euler_angles.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\euler_angles.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\euler_angles.inl
 	"compatibility.hpp"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\extend.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\extend.hpp
 	"../glm.hpp"
 	"extend.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\extend.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\extend.inl
 
-1586696336 d:\git\advanced-tools\glm\glm\gtx\extended_min_max.hpp
+1586699936 d:\git\advanced-tools\glm\glm\gtx\extended_min_max.hpp
 	"../glm.hpp"
 	"../ext/vector_common.hpp"
 	"extended_min_max.inl"
 
-1586696336 d:\git\advanced-tools\glm\glm\gtx\extended_min_max.inl
+1586699936 d:\git\advanced-tools\glm\glm\gtx\extended_min_max.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\fast_exponential.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\fast_exponential.hpp
 	"../glm.hpp"
 	"fast_exponential.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\fast_exponential.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\fast_exponential.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\fast_square_root.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\fast_square_root.hpp
 	"../common.hpp"
 	"../exponential.hpp"
 	"../geometric.hpp"
 	"fast_square_root.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\gtx\fast_square_root.inl
+1574091105 d:\git\advanced-tools\glm\glm\gtx\fast_square_root.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\fast_trigonometry.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\fast_trigonometry.hpp
 	"../gtc/constants.hpp"
 	"fast_trigonometry.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\fast_trigonometry.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\fast_trigonometry.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\functions.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\functions.hpp
 	"../detail/setup.hpp"
 	"../detail/qualifier.hpp"
 	"../detail/type_vec2.hpp"
 	"functions.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\functions.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\functions.inl
 	"../exponential.hpp"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\gradient_paint.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\gradient_paint.hpp
 	"../glm.hpp"
 	"../gtx/optimum_pow.hpp"
 	"gradient_paint.inl"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\optimum_pow.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\optimum_pow.hpp
 	"../glm.hpp"
 	"optimum_pow.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\optimum_pow.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\optimum_pow.inl
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\gradient_paint.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\gradient_paint.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\handed_coordinate_space.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\handed_coordinate_space.hpp
 	"../glm.hpp"
 	"handed_coordinate_space.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\handed_coordinate_space.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\handed_coordinate_space.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\integer.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\integer.hpp
 	"../glm.hpp"
 	"../gtc/integer.hpp"
 	"integer.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\integer.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\integer.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\intersect.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\intersect.hpp
 	<cfloat>
 	<limits>
 	"../glm.hpp"
@@ -3948,69 +3955,69 @@
 	"../gtx/vector_query.hpp"
 	"intersect.inl"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\vector_query.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\vector_query.hpp
 	"../glm.hpp"
 	<cfloat>
 	<limits>
 	"vector_query.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\vector_query.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\vector_query.inl
 	<cassert>
 
-1574087505 d:\git\advanced-tools\glm\glm\gtx\intersect.inl
+1574091105 d:\git\advanced-tools\glm\glm\gtx\intersect.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\log_base.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\log_base.hpp
 	"../glm.hpp"
 	"log_base.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\log_base.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\log_base.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\matrix_cross_product.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\matrix_cross_product.hpp
 	"../glm.hpp"
 	"matrix_cross_product.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\matrix_cross_product.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\matrix_cross_product.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\matrix_interpolation.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\matrix_interpolation.hpp
 	"../glm.hpp"
 	"matrix_interpolation.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\matrix_interpolation.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\matrix_interpolation.inl
 	"../gtc/constants.hpp"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\matrix_major_storage.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\matrix_major_storage.hpp
 	"../glm.hpp"
 	"matrix_major_storage.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\matrix_major_storage.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\matrix_major_storage.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\matrix_operation.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\matrix_operation.hpp
 	"../glm.hpp"
 	"matrix_operation.inl"
 
-1540992242 d:\git\advanced-tools\glm\glm\gtx\matrix_operation.inl
+1540995842 d:\git\advanced-tools\glm\glm\gtx\matrix_operation.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\matrix_query.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\matrix_query.hpp
 	"../glm.hpp"
 	"../gtx/vector_query.hpp"
 	<limits>
 	"matrix_query.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\matrix_query.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\matrix_query.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\mixed_product.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\mixed_product.hpp
 	"../glm.hpp"
 	"mixed_product.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\mixed_product.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\mixed_product.inl
 
-1574087505 d:\git\advanced-tools\glm\glm\gtx\norm.hpp
+1574091105 d:\git\advanced-tools\glm\glm\gtx\norm.hpp
 	"../geometric.hpp"
 	"../gtx/quaternion.hpp"
 	"../gtx/component_wise.hpp"
 	"norm.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\gtx\quaternion.hpp
+1574091105 d:\git\advanced-tools\glm\glm\gtx\quaternion.hpp
 	"../glm.hpp"
 	"../gtc/constants.hpp"
 	"../gtc/quaternion.hpp"
@@ -4018,97 +4025,97 @@
 	"../gtx/norm.hpp"
 	"quaternion.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\gtx\quaternion.inl
+1574091105 d:\git\advanced-tools\glm\glm\gtx\quaternion.inl
 	<limits>
 	"../gtc/constants.hpp"
 
-1574087505 d:\git\advanced-tools\glm\glm\gtx\norm.inl
+1574091105 d:\git\advanced-tools\glm\glm\gtx\norm.inl
 	"../detail/qualifier.hpp"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\normal.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\normal.hpp
 	"../glm.hpp"
 	"normal.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\normal.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\normal.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\normalize_dot.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\normalize_dot.hpp
 	"../gtx/fast_square_root.hpp"
 	"normalize_dot.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\normalize_dot.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\normalize_dot.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\number_precision.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\number_precision.hpp
 	"../glm.hpp"
 	"../gtc/type_precision.hpp"
 	"number_precision.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\number_precision.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\number_precision.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\orthonormalize.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\orthonormalize.hpp
 	"../vec3.hpp"
 	"../mat3x3.hpp"
 	"../geometric.hpp"
 	"orthonormalize.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\orthonormalize.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\orthonormalize.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\perpendicular.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\perpendicular.hpp
 	"../glm.hpp"
 	"../gtx/projection.hpp"
 	"perpendicular.inl"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\projection.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\projection.hpp
 	"../geometric.hpp"
 	"projection.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\projection.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\projection.inl
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\perpendicular.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\perpendicular.inl
 
-1585554429 d:\git\advanced-tools\glm\glm\gtx\polar_coordinates.hpp
+1585558029 d:\git\advanced-tools\glm\glm\gtx\polar_coordinates.hpp
 	"../glm.hpp"
 	"polar_coordinates.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\polar_coordinates.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\polar_coordinates.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\raw_data.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\raw_data.hpp
 	"../ext/scalar_uint_sized.hpp"
 	"../detail/setup.hpp"
 	"raw_data.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\raw_data.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\raw_data.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\rotate_vector.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\rotate_vector.hpp
 	"../gtx/transform.hpp"
 	"../gtc/epsilon.hpp"
 	"../ext/vector_relational.hpp"
 	"../glm.hpp"
 	"rotate_vector.inl"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\transform.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\transform.hpp
 	"../glm.hpp"
 	"../gtc/matrix_transform.hpp"
 	"transform.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\transform.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\transform.inl
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\rotate_vector.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\rotate_vector.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\spline.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\spline.hpp
 	"../glm.hpp"
 	"../gtx/optimum_pow.hpp"
 	"spline.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\spline.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\spline.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\std_based_type.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\std_based_type.hpp
 	"../glm.hpp"
 	<cstdlib>
 	"std_based_type.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\std_based_type.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\std_based_type.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\string_cast.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\string_cast.hpp
 	"../glm.hpp"
 	"../gtc/type_precision.hpp"
 	"../gtc/quaternion.hpp"
@@ -4117,39 +4124,39 @@
 	<cmath>
 	"string_cast.inl"
 
-1574087505 d:\git\advanced-tools\glm\glm\gtx\string_cast.inl
+1574091105 d:\git\advanced-tools\glm\glm\gtx\string_cast.inl
 	<cstdarg>
 	<cstdio>
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\transform2.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\transform2.hpp
 	"../glm.hpp"
 	"../gtx/transform.hpp"
 	"transform2.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\transform2.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\transform2.inl
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\vec_swizzle.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\vec_swizzle.hpp
 	"../glm.hpp"
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\vector_angle.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\vector_angle.hpp
 	"../glm.hpp"
 	"../gtc/epsilon.hpp"
 	"../gtx/quaternion.hpp"
 	"../gtx/rotate_vector.hpp"
 	"vector_angle.inl"
 
-1533815222 d:\git\advanced-tools\glm\glm\gtx\vector_angle.inl
+1533818822 d:\git\advanced-tools\glm\glm\gtx\vector_angle.inl
 
-1586696336 d:\git\advanced-tools\glm\glm\gtx\wrap.hpp
+1586699936 d:\git\advanced-tools\glm\glm\gtx\wrap.hpp
 	"../glm.hpp"
 	"../ext/scalar_common.hpp"
 	"../ext/vector_common.hpp"
 	"../gtc/vec1.hpp"
 	"wrap.inl"
 
-1586696336 d:\git\advanced-tools\glm\glm\gtx\wrap.inl
+1586699936 d:\git\advanced-tools\glm\glm\gtx\wrap.inl
 
-1585554429 d:\git\advanced-tools\glm\glm\gtx\scalar_multiplication.hpp
+1585558029 d:\git\advanced-tools\glm\glm\gtx\scalar_multiplication.hpp
 	"../detail/setup.hpp"
 	"../vec2.hpp"
 	"../vec3.hpp"
@@ -4157,15 +4164,24 @@
 	"../mat2x2.hpp"
 	<type_traits>
 
-1554369868 d:\git\advanced-tools\glm\glm\gtx\range.hpp
+1554373468 d:\git\advanced-tools\glm\glm\gtx\range.hpp
 	"../detail/setup.hpp"
 	"../gtc/type_ptr.hpp"
 	"../gtc/vec1.hpp"
 
-1645568380 source:d:\git\advanced-tools\advancedtools\src\randomnumber.cpp
+1645571980 source:d:\git\advanced-tools\advancedtools\src\randomnumber.cpp
 	"RandomNumber.h"
 	<cstdlib>
 	<ctime>
 
-1645568279 d:\git\advanced-tools\advancedtools\include\randomnumber.h
+1645571879 d:\git\advanced-tools\advancedtools\include\randomnumber.h
+
+1650085939 source:d:\git\advanced-tools\advancedtools\src\keyboardcube.cpp
+	"KeyboardCube.h"
+	"Cube.h"
+
+1650085106 d:\git\advanced-tools\advancedtools\include\keyboardcube.h
+	"Gameobject.h"
+	<glm/glm.hpp>
+	<SDL.h>
 

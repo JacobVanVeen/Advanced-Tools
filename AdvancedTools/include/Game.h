@@ -3,6 +3,9 @@
 #include <SDL.h>
 #include "Renderer.h"
 #include "Camera.h"
+#include "BoxColider.h"
+#include "KeyboardCube.h"
+#include "Colider.h"
 
 class Game
 {
@@ -22,6 +25,8 @@ class Game
         Renderer* renderer;
         World* world;
         Camera* camera;
+        std::vector<Colider*> coliders;
+        void CheckColisions();
 };
 
 #endif // GAME_H

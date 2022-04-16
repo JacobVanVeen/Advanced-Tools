@@ -51,13 +51,14 @@ Renderer::Renderer()
     const char* fragment_shader =
     "#version 400\n"
     "out vec4 frag_colour;"
-   // "in vec4 colorv;"
+    "in vec4 colorv;"
     "in vec3 normal;"
     "in vec3 fragPos;"
     "void main() {"
-    "  vec3 lightDir = normalize(vec3(2,3,0) - fragPos);"
+    "  vec3 lightDir = normalize(vec3(-2,1,-3) - fragPos);"
     "  float diff = max(dot(normal,lightDir),0.0);"
-    "  frag_colour = (0.1 + diff) * vec4(1, 0.0, 0, 1.0);"
+  //  "  frag_colour = (0.1 + diff) * vec4(1, 0.0, 0, 1.0);"
+    "  frag_colour = (0.1 + diff) * vec4(1, 0.0, 0, 1.0) + vec4(0.1,0.1,0.1,0.1);"
     "}";
     GLuint vs = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(vs, 1, &vertex_shader, NULL);
