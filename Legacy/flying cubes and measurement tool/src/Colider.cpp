@@ -1,9 +1,9 @@
 #include "Colider.h"
+#include "Gameobject.h"
 
 Colider::Colider(Gameobject* pOwner)
 {
     owner = pOwner;
-    owner->SetColider(this);
 }
 
 Colider::~Colider()

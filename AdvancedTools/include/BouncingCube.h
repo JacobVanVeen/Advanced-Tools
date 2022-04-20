@@ -1,21 +1,23 @@
-#ifndef KEYBOARDCUBE_H
-#define KEYBOARDCUBE_H
+#ifndef BOUNCINGCUBE_H
+#define BOUNCINGCUBE_H
+#include "Cube.h"
 #include "Gameobject.h"
 #include <glm/glm.hpp>
 #include <SDL.h>
 
-class KeyboardCube : public Gameobject
+class BouncingCube : public Gameobject
 {
     public:
-        KeyboardCube();
-        virtual ~KeyboardCube();
+        BouncingCube();
+        virtual ~BouncingCube();
         void Update(int pDetalTime) override;
         void OnCollision(Gameobject* Other) override;
         void OnCollisionExit(Gameobject* Other) override;
+
     protected:
 
     private:
-        float movementSpeed = 0.1f;
+        glm::vec3 velocity;
 };
 
-#endif // KEYBOARDCUBE_H
+#endif // BOUNCINGCUBE_H

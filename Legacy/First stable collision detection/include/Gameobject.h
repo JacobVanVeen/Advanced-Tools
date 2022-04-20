@@ -5,9 +5,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glew.h>
 #include <string>
-
-class Colider;
-
 class Gameobject
 {
     public:
@@ -36,15 +33,12 @@ class Gameobject
         virtual void OnCollisionExit(Gameobject* other);
         void rotateObject(glm::vec3 pAxis,float degrees);
         void rotateAround(glm::vec3 pObject,glm::vec3 pAxis,float pRads);
-        void SetColider(Colider* pColider);
-        Colider* GetColider();
     protected:
         void render();
         glm::mat4 translationMatrix;
     private:
         glm::vec3 position;
         glm::vec3 rotation;
-        Colider* colider;
 
         std::vector<Gameobject*> childeren;
         Gameobject* parent;

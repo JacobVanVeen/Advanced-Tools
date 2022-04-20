@@ -383,7 +383,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1650440207 source:d:\git\advanced-tools\advancedtools\main.cpp
+1645572860 source:d:\git\advanced-tools\advancedtools\main.cpp
 	<exception>
 	<string>
 	<iostream>
@@ -391,7 +391,7 @@
 	"Game.h"
 	"Cube.h"
 
-1650433186 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
+1650254183 source:d:\git\advanced-tools\advancedtools\src\gameobject.cpp
 	<iostream>
 	"Gameobject.h"
 	<glm/glm.hpp>
@@ -400,7 +400,7 @@
 	"glm/gtx/string_cast.hpp"
 	"glm/gtx/rotate_vector.hpp"
 
-1650433665 d:\git\advanced-tools\advancedtools\include\gameobject.h
+1650253233 d:\git\advanced-tools\advancedtools\include\gameobject.h
 	<vector>
 	<glm/glm.hpp>
 	<glm/gtc/matrix_transform.hpp>
@@ -785,19 +785,15 @@
 	"begin_code.h"
 	"close_code.h"
 
-1650437975 d:\git\advanced-tools\advancedtools\include\game.h
+1650254560 d:\git\advanced-tools\advancedtools\include\game.h
 	<SDL.h>
 	"Renderer.h"
 	"Camera.h"
 	"BoxColider.h"
 	"KeyboardCube.h"
 	"Colider.h"
-	"CollisionMeasuringTool.h"
-	"abstractCollisionDetection.h"
-	"TraditionalCollisionDetection.h"
-	"BspCollisionDetection.h"
 
-1650445998 source:d:\git\advanced-tools\advancedtools\src\game.cpp
+1650256474 source:d:\git\advanced-tools\advancedtools\src\game.cpp
 	"Game.h"
 	<SDL.h>
 	<glew.h>
@@ -807,7 +803,6 @@
 	"cube.h"
 	"Camera.h"
 	"RandomNumber.h"
-	"BouncingCube.h"
 
 1501501581 d:\git\advanced-tools\glew-2.1.0\include\gl\glew.h
 	<stddef.h>
@@ -1743,7 +1738,7 @@
 1644920571 d:\git\advanced-tools\advancedtools\include\world.h
 	"Gameobject.h"
 
-1650410117 source:d:\git\advanced-tools\advancedtools\src\boxcolider.cpp
+1650410063 source:d:\git\advanced-tools\advancedtools\src\boxcolider.cpp
 	"BoxColider.h"
 	<stdio.h>
 	<iostream>
@@ -1753,10 +1748,11 @@
 	"Gameobject.h"
 	<glm/glm.hpp>
 
-1650433733 source:d:\git\advanced-tools\advancedtools\src\colider.cpp
+1650081841 source:d:\git\advanced-tools\advancedtools\src\colider.cpp
 	"Colider.h"
+	"Gameobject.h"
 
-1650433578 d:\git\advanced-tools\advancedtools\include\colider.h
+1650081882 d:\git\advanced-tools\advancedtools\include\colider.h
 	<glm/glm.hpp>
 	"Gameobject.h"
 
@@ -4180,7 +4176,7 @@
 
 1645571879 d:\git\advanced-tools\advancedtools\include\randomnumber.h
 
-1650411756 source:d:\git\advanced-tools\advancedtools\src\keyboardcube.cpp
+1650256071 source:d:\git\advanced-tools\advancedtools\src\keyboardcube.cpp
 	"KeyboardCube.h"
 	"Cube.h"
 
@@ -4188,57 +4184,4 @@
 	"Gameobject.h"
 	<glm/glm.hpp>
 	<SDL.h>
-
-1650438816 source:d:\git\advanced-tools\advancedtools\src\bouncingcube.cpp
-	"BouncingCube.h"
-	"RandomNumber.h"
-
-1650411167 d:\git\advanced-tools\advancedtools\include\bouncingcube.h
-	"Cube.h"
-	"Gameobject.h"
-	<glm/glm.hpp>
-	<SDL.h>
-
-1650424638 source:d:\git\advanced-tools\advancedtools\src\collisionmeasuringtool.cpp
-	"CollisionMeasuringTool.h"
-
-1650424627 d:\git\advanced-tools\advancedtools\include\collisionmeasuringtool.h
-	<SDL.h>
-	<iostream>
-	<fstream>
-	<vector>
-	<time.h>
-	<string>
-
-1650454185 source:d:\git\advanced-tools\advancedtools\src\traditionalcollisiondetection.cpp
-	"TraditionalCollisionDetection.h"
-
-1650445781 d:\git\advanced-tools\advancedtools\include\traditionalcollisiondetection.h
-	"AbstractCollisionDetection.h"
-	"CollisionMeasuringTool.h"
-
-1650447569 source:d:\git\advanced-tools\advancedtools\src\abstractcollisiondetection.cpp
-	"AbstractCollisionDetection.h"
-
-1650453458 d:\git\advanced-tools\advancedtools\include\abstractcollisiondetection.h
-	<vector>
-	"Colider.h"
-
-1650453511 source:d:\git\advanced-tools\advancedtools\src\bspcollisiondetection.cpp
-	"BSPCollisionDetection.h"
-
-1650450611 d:\git\advanced-tools\advancedtools\include\bspcollisiondetection.h
-	"AbstractCollisionDetection.h"
-	"BoxColider.h"
-	"BspCell.h"
-
-1650448200 source:d:\git\advanced-tools\advancedtools\src\bspcell.cpp
-	"BspCell.h"
-	"Cube.h"
-
-1650448136 d:\git\advanced-tools\advancedtools\include\bspcell.h
-	"Gameobject.h"
-	<string>
-	"TraditionalCollisionDetection.h"
-	<algorithm>
 

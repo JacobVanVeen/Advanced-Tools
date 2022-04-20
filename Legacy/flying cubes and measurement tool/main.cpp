@@ -8,7 +8,7 @@
 
 int main( int argc, char * argv[] )
 {
-    Game game(900,900,false);
+    Game game(500,500,false);
     game.Run();
     return 0;
 }

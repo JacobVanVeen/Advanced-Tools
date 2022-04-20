@@ -6,16 +6,13 @@
 #include "BoxColider.h"
 #include "KeyboardCube.h"
 #include "Colider.h"
-#include "CollisionMeasuringTool.h"
-#include "abstractCollisionDetection.h"
-#include "TraditionalCollisionDetection.h"
-#include "BspCollisionDetection.h"
 
-/*struct Collision
+
+struct Collision
 {
     Gameobject* gameobjectA;
     Gameobject* gameobjectB;
-};*/
+};
 
 
 class Game
@@ -38,12 +35,8 @@ class Game
         Camera* camera;
         std::vector<Colider*> coliders;
         void CheckColisions();
-        AbstractCollisionDetection* colDect;
-        BSPCollisionDetection* bspCol;
-        TraditionalCollisionDetection* TradCol;
-     //   std::vector<Collision> collisions;
-     //   bool WasColliding(Gameobject* gameObjectA,Gameobject* GameobjectB,int* pIndex);
-     //   CollisionMeasuringTool* mTool;
+        std::vector<Collision> collisions;
+        bool WasColliding(Gameobject* gameObjectA,Gameobject* GameobjectB,int* pIndex);
 
 };
 

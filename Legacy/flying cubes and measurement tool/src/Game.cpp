@@ -11,7 +11,6 @@
 #include "BouncingCube.h"
 
 
-
 int windowHeight;
 int windowWidth;
 char* title;
@@ -72,13 +71,13 @@ void Game::SetupOpenGlWindow()
         return;
     }
 
- //   mTool = new CollisionMeasuringTool();
+    mTool = new CollisionMeasuringTool();
     camera = new Camera();
     renderer = new Renderer();
     world = new World();
     world->AddToWorld(camera);
 
-    camera->SetPos(glm::vec3(0,10,-150));
+    camera->SetPos(glm::vec3(0,10,-25));
     camera->SetRot(glm::vec3(1.55f,3.14f,0));
     //camera->SetRot(glm::vec3(-3.14f / 4,3.14f,0));
    // camera->SetRot(glm::vec3(0,3.14,0));
@@ -98,7 +97,7 @@ void Game::SetupOpenGlWindow()
     //boxA->Scale = glm::vec3(1,1,1);
 
     coliders.push_back(boxA);
-   // mTool->AddColider();
+    mTool->AddColider();
     //coliders.push_back(boxB);
 
     for (int i =0;i< 300;i++)
@@ -107,8 +106,7 @@ void Game::SetupOpenGlWindow()
         world->AddToWorld(bCube);
         BoxColider* boxC = new BoxColider(bCube);
         coliders.push_back(boxC);
-
-   //     mTool->AddColider();
+        mTool->AddColider();
     }
 
 
@@ -237,21 +235,11 @@ void Game::Run()
     TimePerFrameMs = 1000 / TargetFps;
     bool running = true;
 
-    //colDect = new TraditionalCollisionDetection();
-    bspCol = new BSPCollisionDetection(100,4);
-    TradCol = new TraditionalCollisionDetection();
 
-    colDect = TradCol;
 
-    for (int i=0;i<bspCol->BspCells.size();i++)
-    {
-      //  Colider* col = bspcol->BspCells.at(i)->Ge;
-        world->AddToWorld(bspCol->BspCells.at(i));
-    }
-    bool colTrad = true;
     while (running)
     {
-                  colDect->CheckCollisions(&coliders);
+
         uint32_t timeSinceLastFrame = (SDL_GetTicks() - timebase);
         if (timeSinceLastFrame != 0)
         {
@@ -261,8 +249,7 @@ void Game::Run()
         //check if it's time to update. Or if the framerate is unlocked always update;
         if (UnlockedFps || (timeSinceLastUpdate >= TimePerFrameMs))
         {
-          //  Game::CheckColisions();
-
+            Game::CheckColisions();
             //update world(DeltaTime)
             world->Update(timeSinceLastFrame);
 
@@ -286,19 +273,6 @@ void Game::Run()
               case SDLK_ESCAPE:
                 running = 0;
                 break;
-              case SDLK_c:
-                    if (colTrad)
-                    {
-                        colDect = bspCol;
-                        std::cout << "Switched to BSP collision Detection" << std::endl;
-                        colTrad = false;
-                    }
-                    else
-                    {
-                        colDect = TradCol;
-                        std::cout << "Switched to traditional collision Detection" << std::endl;
-                        colTrad = true;
-                    }
               default:
                 break;
             }
@@ -335,15 +309,15 @@ void Game::Run()
             }
         }
     }
-    colDect->WriteReport();
+    mTool->WriteResults();
     //Game::RunTillClose();
     SDL_GL_DeleteContext(ctx);
     SDL_DestroyWindow(window);
     SDL_Quit();
 }
 
-/// Some collision detection code I moved over to seperate classes.
-/*
+
+
 
 void Game::CheckColisions()
 {
@@ -426,9 +400,6 @@ bool Game::WasColliding(Gameobject* gameObjectA,Gameobject* GameobjectB,int* ind
     return false;
 }
 
-
-
-*/
 
 void Game::RenderWorld()
 {

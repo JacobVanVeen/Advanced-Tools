@@ -120,16 +120,6 @@ glm::mat4 Gameobject::GetMatrix()
     return translationMatrix;
 }
 
-void Gameobject::SetColider(Colider* pColider)
-{
-    colider = pColider;
-}
-
-Colider* Gameobject::GetColider()
-{
-    return colider;
-}
-
 
 /*glm::mat4 SetMatrix(glm::mat4 pMat)
 {

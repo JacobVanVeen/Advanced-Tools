@@ -8,8 +8,6 @@
 #include "cube.h"
 #include "Camera.h"
 #include "RandomNumber.h"
-#include "BouncingCube.h"
-
 
 
 int windowHeight;
@@ -71,15 +69,13 @@ void Game::SetupOpenGlWindow()
         std::cout << "Error initializing Glew, error: " << err << std::endl;
         return;
     }
-
- //   mTool = new CollisionMeasuringTool();
     camera = new Camera();
     renderer = new Renderer();
     world = new World();
     world->AddToWorld(camera);
 
-    camera->SetPos(glm::vec3(0,10,-150));
-    camera->SetRot(glm::vec3(1.55f,3.14f,0));
+    camera->SetPos(glm::vec3(0,0,-10));
+    camera->SetRot(glm::vec3(0,3.14f,0));
     //camera->SetRot(glm::vec3(-3.14f / 4,3.14f,0));
    // camera->SetRot(glm::vec3(0,3.14,0));
 
@@ -87,36 +83,22 @@ void Game::SetupOpenGlWindow()
     world->AddToWorld(tryout);
     tryout->SetPos(glm::vec3(0,0,-7));
 
-  /*  BouncingCube* cube2 = new BouncingCube();
+    Cube* cube2 = new Cube("cube2");
     world->AddToWorld(cube2);
-    cube2->SetPos(glm::vec3(-1,0,-6));*/
+    cube2->SetPos(glm::vec3(-1,0,-6));
 
 
     BoxColider* boxA = new BoxColider(tryout);
-    //BoxColider* boxB = new BoxColider(cube2);
-
-    //boxA->Scale = glm::vec3(1,1,1);
+    BoxColider* boxB = new BoxColider(cube2);
 
     coliders.push_back(boxA);
-   // mTool->AddColider();
-    //coliders.push_back(boxB);
-
-    for (int i =0;i< 300;i++)
-    {
-        BouncingCube* bCube = new BouncingCube();
-        world->AddToWorld(bCube);
-        BoxColider* boxC = new BoxColider(bCube);
-        coliders.push_back(boxC);
-
-   //     mTool->AddColider();
-    }
-
+    coliders.push_back(boxB);
 
 
         // change background color
     glClearColor(0.0f,0.0f,0.0f,0.0f);
 
-    return; //////////////////////////////////////////////////////// Bellow is some old code I wrote just to get to grips with the engine.
+    return; //////////////////////////////////////////////////////////////////////////////////////////////////////
         Gameobject* tryout2 = new Gameobject("Tryout2");
     tryout2->Verts.push_back(glm::vec3(1.0f,  1.0f,  0.0f));
     tryout2->Verts.push_back(glm::vec3(0.7f, 0.7f,  0.0f));
@@ -236,22 +218,9 @@ void Game::Run()
    // timeAtStartOfFrame = SDL_GetTicks();
     TimePerFrameMs = 1000 / TargetFps;
     bool running = true;
-
-    //colDect = new TraditionalCollisionDetection();
-    bspCol = new BSPCollisionDetection(100,4);
-    TradCol = new TraditionalCollisionDetection();
-
-    colDect = TradCol;
-
-    for (int i=0;i<bspCol->BspCells.size();i++)
-    {
-      //  Colider* col = bspcol->BspCells.at(i)->Ge;
-        world->AddToWorld(bspCol->BspCells.at(i));
-    }
-    bool colTrad = true;
     while (running)
     {
-                  colDect->CheckCollisions(&coliders);
+        Game::CheckColisions();
         uint32_t timeSinceLastFrame = (SDL_GetTicks() - timebase);
         if (timeSinceLastFrame != 0)
         {
@@ -261,8 +230,6 @@ void Game::Run()
         //check if it's time to update. Or if the framerate is unlocked always update;
         if (UnlockedFps || (timeSinceLastUpdate >= TimePerFrameMs))
         {
-          //  Game::CheckColisions();
-
             //update world(DeltaTime)
             world->Update(timeSinceLastFrame);
 
@@ -286,19 +253,6 @@ void Game::Run()
               case SDLK_ESCAPE:
                 running = 0;
                 break;
-              case SDLK_c:
-                    if (colTrad)
-                    {
-                        colDect = bspCol;
-                        std::cout << "Switched to BSP collision Detection" << std::endl;
-                        colTrad = false;
-                    }
-                    else
-                    {
-                        colDect = TradCol;
-                        std::cout << "Switched to traditional collision Detection" << std::endl;
-                        colTrad = true;
-                    }
               default:
                 break;
             }
@@ -335,30 +289,24 @@ void Game::Run()
             }
         }
     }
-    colDect->WriteReport();
+
     //Game::RunTillClose();
     SDL_GL_DeleteContext(ctx);
     SDL_DestroyWindow(window);
     SDL_Quit();
 }
 
-/// Some collision detection code I moved over to seperate classes.
-/*
+
+
 
 void Game::CheckColisions()
 {
-    mTool->StartMeasurement();
-    for (int i=0;i< coliders.size();i++)
+    int index =0;
+        Gameobject* gameObjectA = coliders.at(0)->GetOwner();
+        Gameobject* gameObjectB = coliders.at(1)->GetOwner();
+    if (coliders.at(0)->IsColiding(coliders.at(1)))
     {
 
-        for (int j=i+1;j<coliders.size();j++)
-        {
-        int index =0; //used to get the index of a collision that already happend.
-        Gameobject* gameObjectA = coliders.at(i)->GetOwner();
-        Gameobject* gameObjectB = coliders.at(j)->GetOwner();
-        if (coliders.at(i)->IsColiding(coliders.at(j)))
-        {
-            mTool->CollisionChecked(true);
         //check if it was already colliding:
         if (WasColliding(gameObjectA,gameObjectB,&index))
         {
@@ -366,11 +314,9 @@ void Game::CheckColisions()
            // std::cout << "On Collision Stay!" << std::endl;
            gameObjectA->OnCollisionStay(gameObjectB);
            gameObjectB->OnCollisionStay(gameObjectA);
-     //      std::cout << i << "---" << j << " still coliding" << std::endl;
         }
         else
         {
-     //   std::cout << "New collison!" << std::endl;
         gameObjectA->OnCollision(gameObjectB);
         gameObjectB->OnCollision(gameObjectA);
         //add to the collision list;
@@ -379,14 +325,12 @@ void Game::CheckColisions()
         newCol.gameobjectB = gameObjectB;
         collisions.push_back(newCol);
         //std::cout << "On Collision Enter!" << std::endl;
-     //       std::cout << i << "---" << j << " are now coliding" << std::endl;
         }
 
 
-        }
-        else
-        {
-            mTool->CollisionChecked(false);
+    }
+    else
+    {
         //check if they were colliding and if so fire the OncollisionExit
         if (WasColliding(gameObjectA,gameObjectB,&index))
         {
@@ -394,22 +338,13 @@ void Game::CheckColisions()
            gameObjectA->OnCollisionExit(gameObjectB);
            gameObjectB->OnCollisionExit(gameObjectA);
             //remove from list:
-          //  std::cout << "Deleting collison" << std::endl;
+            std::cout << "Deleting collison" << std::endl;
             collisions.erase(collisions.begin() + index);
-      //       std::cout << i << "---" << j << " are not coliding anymore" << std::endl;
-        }
-        else
-        {
-         //    std::cout << i << "---" << j << " are not coliding" << std::endl;
-        }
+            std::cout << "Deleting done" << std::endl;
 
         }
 
-        }
     }
-    mTool->EndMeasurement();
-
-
 }
 
 
@@ -426,9 +361,6 @@ bool Game::WasColliding(Gameobject* gameObjectA,Gameobject* GameobjectB,int* ind
     return false;
 }
 
-
-
-*/
 
 void Game::RenderWorld()
 {

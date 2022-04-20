@@ -6,7 +6,6 @@ KeyboardCube::KeyboardCube() : Gameobject("KeyboardCube")
 {
     Verts.insert(Verts.end(),Cube::CUBEVERTS,Cube::CUBEVERTS + sizeof(Cube::CUBEVERTS) / sizeof(glm::vec3));
     Color = glm::vec4(1,0,0,1);
-
 }
 
 KeyboardCube::~KeyboardCube()
