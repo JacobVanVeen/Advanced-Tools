@@ -238,7 +238,7 @@ void Game::Run()
     bool running = true;
 
     //colDect = new TraditionalCollisionDetection();
-    bspCol = new BSPCollisionDetection(100,4);
+    bspCol = new BSPCollisionDetection(100,6);
     TradCol = new TraditionalCollisionDetection();
 
     colDect = TradCol;
